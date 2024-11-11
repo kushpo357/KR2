@@ -1,0 +1,82 @@
+[
+  {
+    "event": {
+      "id": 1,
+      "name": "Tech Conference 2024",
+      "details": {
+        "category": "Technology",
+        "venue": "Convention Center, Hall A",
+        "date": "2024-11-15",
+        "registration_link": "https://www.techconference2024.com/register"
+      },
+      "basic_rules": "All participants must register online in advance. No on-site registration allowed.",
+      "description": "Join industry leaders and innovators for a three-day tech conference featuring workshops, keynote speakers, and networking opportunities.",
+      "image": "https://picsum.photos/200",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 2,
+      "name": "Art Expo 2024",
+      "details": {
+        "category": "Art & Culture",
+        "venue": "City Gallery, Main Hall",
+        "date": "2024-11-16",
+        "registration_link": "https://www.artexpo2024.com/register"
+      },
+      "basic_rules": "Masks required. No food or drinks allowed inside the gallery.",
+      "description": "An immersive art exhibition showcasing modern and contemporary artists from around the world.",
+      "image": "https://picsum.photos/200",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 3,
+      "name": "Health & Wellness Summit 2024",
+      "details": {
+        "category": "Health & Wellness",
+        "venue": "Wellness Center, Conference Room B",
+        "date": "2024-11-17",
+        "registration_link": "https://www.healthsummit2024.com/register"
+      },
+      "basic_rules": "Pre-event health screening is mandatory for all participants.",
+      "description": "A two-day summit dedicated to health and wellness, featuring talks, workshops, and fitness sessions.",
+      "image": "https://picsum.photos/200",
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 4,
+      "name": "Innovation Hackathon 2024",
+      "details": {
+        "category": "Technology",
+        "venue": "Tech Lab, Building 5",
+        "date": "2024-11-18",
+        "registration_link": "https://www.innovationhackathon2024.com/register"
+      },
+      "basic_rules": "Teams must consist of 3-5 members. Code of conduct must be followed throughout the event.",
+      "description": "A 48-hour coding competition where developers, designers, and entrepreneurs collaborate to create innovative solutions.",
+      "image": "https://picsum.photos/200",
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 5,
+      "name": "Global Startup Pitch 2024",
+      "details": {
+        "category": "Business",
+        "venue": "Startup Hub, Auditorium",
+        "date": "2024-11-19",
+        "registration_link": "https://www.globalstartuppitch2024.com/register"
+      },
+      "basic_rules": "Pitch presentations must be no longer than 10 minutes. No more than 2 team members may present.",
+      "description": "An exciting event where startup founders pitch their innovative ideas to a panel of investors and entrepreneurs.",
+      "image": "https://picsum.photos/200",
+      "day": "Day3"
+    }
+  }
+]

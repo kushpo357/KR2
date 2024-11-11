@@ -1,0 +1,123 @@
+/* Base styles for Navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    position: fixed; /* Fixed positioning to keep navbar on top */
+    top: 0; /* Aligns navbar at the top of the page */
+    left: 0; /* Sticks the navbar to the left edge */
+    width: 100%; /* Makes sure it spans the full width */
+    z-index: 1000; /* Ensures navbar stays on top of other content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds a shadow for visibility */
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  h3 {
+    color: #FFEAAC;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  ul li {
+    margin: 0 15px;
+  }
+  
+  ul li button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  ul li button:hover {
+    color: #FFEAAC;
+  }
+  
+  /* Add some margin-top to the body/content to avoid overlap */
+  body {
+    margin-top: 60px; /* Adjust this to ensure the content doesn't overlap the navbar */
+  }
+  
+  /* Mobile view */
+  @media (max-width: 768px) {
+    /* Hide the desktop nav items */
+    .nav ul {
+      display: none;
+    }
+  
+    /* Show hamburger menu on mobile */
+    .hamburger {
+      display: block;
+      font-size: 2rem;
+      background: transparent;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+  
+    /* Mobile menu styles */
+    .nav-links {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      background-color: #000;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 50px 20px;
+      align-items: center;
+    }
+  
+    /* Show the nav links when menu is active */
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      margin: 20px 0;
+    }
+  
+    /* Adjust button size on mobile */
+    .nav-links button {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Desktop Styles (greater than 768px) */
+  @media (min-width: 769px) {
+    /* Hide hamburger menu on desktop */
+    .hamburger {
+      display: none;
+    }
+  
+    /* Show the regular nav links */
+    .nav-links {
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    /* Align the nav items in a row on desktop */
+    .nav-links li {
+      margin: 0 15px;
+    }
+  }
+  
