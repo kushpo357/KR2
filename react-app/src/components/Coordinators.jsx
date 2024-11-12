@@ -7,6 +7,7 @@ import pranav from "../assets/pranav.png";
 import shraddha from "../assets/shraddha.png";
 import karthik from "../assets/karthik.png";
 import bg from "../assets/gb.jpg";
+
 const people = [
   {
     name: 'Shreya G Shet',
@@ -60,16 +61,15 @@ export default function Coordinators() {
     <>
       <Navbar />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 h-full lg:h-[95vh] bg-[#000000] ">
+        
         {/* Left Side Image */}
-        <div 
-    className="flex justify-center items-center"
-  >
-    <div 
-      className="bg-cover bg-center h-[48vh] sm:h-[70vh] w-full  mx-[5vw] md:mx-[8vw]" 
-      style={{ backgroundImage: {bg} }}
-    >
-    </div>
-  </div>
+        <div className="flex justify-center items-center">
+          <div 
+            className="bg-cover bg-center h-[48vh] sm:h-[70vh] w-full mx-[5vw] md:mx-[8vw]" 
+            style={{ backgroundImage: `url(${bg})` }}
+          >
+          </div>
+        </div>
 
         {/* Right Side Content */}
         <div className="bg-[#000000] py-6 md:py-12 mx-[5vw] md:mx-[8vh] md:-ml-[8vh]">
@@ -84,30 +84,36 @@ export default function Coordinators() {
             <ul role="list" className="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-6">
               {fourthYearCoordinators.map((person) => (
                 <li
-                  key={person.name}
-                  className="relative bg-[#151515] pb-4 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-                >
-                  <div className="relative aspect-[1]">
+                key={person.name}
+                className="relative bg-[#151515] pb-4 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 flex flex-col items-center"
+              >
+                <div className="relative w-[75%] max-w-[200px] aspect-square">
+                  <img
+                    src={person.photo}
+                    alt="Coordinator"
+                    className="mx-auto h-full w-full object-cover rounded-lg"
+                  />
+                  <a
+                    href={person.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute top-[0.8vw] right-[0.8vw] md:top-[0.5vw] md:right-[0.5vw]"
+                  >
                     <img
-                      src={person.photo}
-                      alt="Coordinator"
-                      className="mx-auto h-[30vw] w-[30vw] sm:h-[14vw] sm:w-[14vw] md:h-[11vw] md:w-[11vw] object-cover rounded-lg"
+                      src={InstagramIcon}
+                      alt="Instagram"
+                      className="h-[4vw] w-[4vw] sm:h-[2.5vw] sm:w-[2.5vw] md:h-[1.5vw] md:w-[1.5vw]"
                     />
-                    <a
-                      href={person.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="absolute top-[1vw] right-[1vw] md:top-[.5vw] md:right-[.5vw]"
-                    >
-                      <img src={InstagramIcon} alt="Instagram" className="h-[4vw] w-[4vw] md:h-[1.5vw] md:w-[1.5vw]" />
-                    </a>
-                  </div>
-                  <div className="text-center mt-2 md:mt-[.5vw] space-y-1">
-                    <h3 className="text-[#ffffff] font-semibold sm:text-sm">{person.name}</h3>
-                    <p className="text-[#FE5B4A] uppercase text-sm">{person.usn}</p>
-                    <p className="text-[#ffffff] text-sm">{person.phone}</p>
-                  </div>
-                </li>
+                  </a>
+                </div>
+                
+                <div className="text-center mt-3 md:mt-2 space-y-1 px-2 w-full">
+                  <h3 className="text-[#ffffff] font-semibold text-sm md:text-base">{person.name}</h3>
+                  <p className="text-[#FE5B4A] uppercase text-xs md:text-sm">{person.usn}</p>
+                  <p className="text-[#ffffff] text-xs md:text-sm">{person.phone}</p>
+                </div>
+              </li>
+              
               ))}
             </ul>
 
@@ -120,30 +126,36 @@ export default function Coordinators() {
             <ul role="list" className="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-6">
               {thirdYearCoordinators.map((person) => (
                 <li
-                  key={person.name}
-                  className="relative bg-[#151515] pb-4 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-                >
-                  <div className="relative aspect-[1]">
+                key={person.name}
+                className="relative bg-[#151515] pb-4 rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105 flex flex-col items-center"
+              >
+                <div className="relative w-[75%] max-w-[200px] aspect-square">
+                  <img
+                    src={person.photo}
+                    alt="Coordinator"
+                    className="mx-auto h-full w-full object-cover rounded-lg"
+                  />
+                  <a
+                    href={person.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute top-[0.8vw] right-[0.8vw] md:top-[0.5vw] md:right-[0.5vw]"
+                  >
                     <img
-                      src={person.photo}
-                      alt="Coordinator"
-                      className="mx-auto h-[30vw] w-[30vw] sm:h-[14vw] sm:w-[14vw] md:h-[11vw] md:w-[11vw] object-cover rounded-lg"
+                      src={InstagramIcon}
+                      alt="Instagram"
+                      className="h-[4vw] w-[4vw] sm:h-[2.5vw] sm:w-[2.5vw] md:h-[1.5vw] md:w-[1.5vw]"
                     />
-                    <a
-                      href={person.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="absolute top-[1vw] right-[1vw] md:top-[.5vw] md:right-[.5vw]"
-                    >
-                      <img src={InstagramIcon} alt="Instagram" className="h-[4vw] w-[4vw] md:h-[1.5vw] md:w-[1.5vw]" />
-                    </a>
-                  </div>
-                  <div className="text-center mt-2 md:mt-[.5vw] space-y-1">
-                    <h3 className="text-[#ffffff] font-semibold sm:text-sm">{person.name}</h3>
-                    <p className="text-[#FE5B4A] uppercase text-sm">{person.usn}</p>
-                    <p className="text-[#ffffff] text-sm">{person.phone}</p>
-                  </div>
-                </li>
+                  </a>
+                </div>
+                
+                <div className="text-center mt-3 md:mt-2 space-y-1 px-2 w-full">
+                  <h3 className="text-[#ffffff] font-semibold text-sm md:text-base">{person.name}</h3>
+                  <p className="text-[#FE5B4A] uppercase text-xs md:text-sm">{person.usn}</p>
+                  <p className="text-[#ffffff] text-xs md:text-sm">{person.phone}</p>
+                </div>
+              </li>
+              
               ))}
             </ul>
           </div>
