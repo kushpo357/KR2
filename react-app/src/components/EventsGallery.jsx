@@ -3,10 +3,9 @@ import Navbar from "./navbar/Navbar";
 import { Link } from "react-router-dom";
 
 const tabs = [
+  { name: 'Day0', day: 'Day0' },
   { name: 'Day1', day: 'Day1' },
   { name: 'Day2', day: 'Day2' },
-  { name: 'Day3', day: 'Day3' },
-  { name: 'Day4', day: 'Day4' },
 ];
 
 function classNames(...classes) {
