@@ -1,48 +1,54 @@
 import InstagramIcon from '/src/assets/insta.svg';
 import Navbar from "./navbar/Navbar";
-
+import shreya from "../assets/shreya.png";
+import madhu from "../assets/madhu.png";
+import vidya from "../assets/Vidya.png";
+import pranav from "../assets/pranav.png";
+import shraddha from "../assets/shraddha.png";
+import karthik from "../assets/karthik.png";
+import bg from "../assets/gb.jpg";
 const people = [
   {
     name: 'Shreya G Shet',
     usn: '1MS21CV086',
     phone: '6363679309',
     url: 'https://instagram.com/shreya_g_shet',
-    photo: '/src/assets/shreya.png',
+    photo: shreya,
   },
   {
     name: 'Madhukeerthi K',
     usn: '1MS22CV404',
     phone: '9480420739',
     url: 'https://instagram.com/madhu.001.mk',
-    photo: '/src/assets/madhu.png',
+    photo: madhu,
   },
   {
     name: 'Vidya Mainalli',
     usn: '1ms21et060',
     phone: '9019519798',
     url: 'https://instagram.com/vidya_f_m',
-    photo: '/src/assets/vidya.png',
+    photo: vidya,
   },
   {
     name: 'Pranav B Raj',
     usn: '1MS22AI073',
     phone: '9353029515',
     url: 'https://instagram.com/pranav_b_raj',
-    photo: '/src/assets/pranav.png',
+    photo: pranav,
   },
   {
     name: 'Shraddha K Hiremath',
     usn: '1MS22IM042',
     phone: '7892433738',
     url: 'https://instagram.com/shraddhahiremath',
-    photo: '/src/assets/shraddha.jpg',
+    photo: shraddha,
   },
   {
     name: 'Karthik Gowda G R',
     usn: '1MS22CHO22',
     phone: '9353083175',
     url: 'https://instagram.com/_karthik_gowda_40',
-    photo: '/src/assets/karthik.png',
+    photo: karthik,
   },
 ];
 
@@ -60,7 +66,7 @@ export default function Coordinators() {
   >
     <div 
       className="bg-cover bg-center h-[48vh] sm:h-[70vh] w-full  mx-[5vw] md:mx-[8vw]" 
-      style={{ backgroundImage: "url('/src/assets/gb.jpg')" }}
+      style={{ backgroundImage: {bg} }}
     >
     </div>
   </div>
