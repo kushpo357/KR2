@@ -2,31 +2,31 @@
   {
     "event": {
       "id": 1,
-      "name": "Tech Conference 2024",
+      "name": "Debate",
       "details": {
-        "category": "Technology",
-        "venue": "Convention Center, Hall A",
-        "date": "2024-11-15",
-        "registration_link": "https://www.techconference2024.com/register"
+        "category": "Public Speaking",
+        "venue": "Seminar Hall",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/debate"
       },
-      "basic_rules": "All participants must register online in advance. No on-site registration allowed.",
-      "description": "Join industry leaders and innovators for a three-day tech conference featuring workshops, keynote speakers, and networking opportunities.",
-      "image": "https://picsum.photos/200",
-      "day": "Day1"
+      "basic_rules": "Group event of 2 members.",
+      "description": "Join us for a spirited celebration of Karnataka Rajyotsava as we host a dynamic debate event, dedicated to honoring the rich culture and language of Kannada. Engage in thought-provoking discussions as participants eloquently express their perspectives on topics that reflect the essence of Karnataka's heritage. This event honors Karnataka's linguistic and cultural diversity, fostering a platform for ideas to flourish and the Rajyotsava spirit to thrive. Come be a part of this intellectually stimulating celebration of Kannada language and culture.",
+      "image": "https://th.bing.com/th/id/OIP.26RZkMUfwzdDnD9QYhzSnwAAAA?rs=1&pid=ImgDetMain",
+      "day": "Day2"
     }
   },
   {
     "event": {
       "id": 2,
-      "name": "Art Expo 2024",
+      "name": "Just A Minute (JAM)",
       "details": {
-        "category": "Art & Culture",
-        "venue": "City Gallery, Main Hall",
-        "date": "2024-11-16",
-        "registration_link": "https://www.artexpo2024.com/register"
+        "category": "Speaking",
+        "venue": "Seminar Room 1",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/jam"
       },
-      "basic_rules": "Masks required. No food or drinks allowed inside the gallery.",
-      "description": "An immersive art exhibition showcasing modern and contemporary artists from around the world.",
+      "basic_rules": "Individual event. Consists of three rounds.",
+      "description": "In 'Just a Minute,' you talk for one minute on a topic, but no pauses or saying the same thing twice. It's all about quick thinking and smooth talking!",
       "image": "https://picsum.photos/200",
       "day": "Day1"
     }
@@ -34,49 +34,449 @@
   {
     "event": {
       "id": 3,
-      "name": "Health & Wellness Summit 2024",
+      "name": "Creative Writing",
       "details": {
-        "category": "Health & Wellness",
-        "venue": "Wellness Center, Conference Room B",
-        "date": "2024-11-17",
-        "registration_link": "https://www.healthsummit2024.com/register"
+        "category": "Literary",
+        "venue": "Library Conference Room",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/creativewriting"
       },
-      "basic_rules": "Pre-event health screening is mandatory for all participants.",
-      "description": "A two-day summit dedicated to health and wellness, featuring talks, workshops, and fitness sessions.",
-      "image": "https://picsum.photos/200",
-      "day": "Day2"
+      "basic_rules": "Individual event (Poetry).",
+      "description": "Ignite the power of your pen, unleash your creativity to fuel it and create a masterpiece. Let your words speak and let your works take the spotlight with creative writing in the form of poetry.",
+      "image": "https://images.for9a.com/thumb/max-2000-auto-100-jpeg/opportunity/73593-999.jpg",
+      "day": "Day1"
     }
   },
   {
     "event": {
       "id": 4,
-      "name": "Innovation Hackathon 2024",
+      "name": "Student Quiz",
       "details": {
-        "category": "Technology",
-        "venue": "Tech Lab, Building 5",
-        "date": "2024-11-18",
-        "registration_link": "https://www.innovationhackathon2024.com/register"
+        "category": "Quiz",
+        "venue": "Lecture Hall B",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/studentsquiz"
       },
-      "basic_rules": "Teams must consist of 3-5 members. Code of conduct must be followed throughout the event.",
-      "description": "A 48-hour coding competition where developers, designers, and entrepreneurs collaborate to create innovative solutions.",
+      "basic_rules": "Group event of 3 members.",
+      "description": "A quiz centered on the rich culture of Karnataka, which helps students and staff to be more interested in the culture and history around them.",
+      "image": "https://www.riddle.com/imageservice/q_80,f_auto,c_fill,w_960,h_540/ed6cozjawexldjs7yedn",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 5,
+      "name": "Rangoli",
+      "details": {
+        "category": "Art",
+        "venue": "Outdoor Stage",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/rangoli"
+      },
+      "basic_rules": "Individual event.",
+      "description": "Create vibrant patterns with colorful powders and bring the tradition of rangoli to life! Join us for an enchanting event where your creativity takes center stage. Express your artistic flair on the canvas of the floor, celebrating the beauty of colors and Karnataka's culture. Let your imagination run wild in this mesmerizing rangoli event!",
+      "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/38255546261509.5607ca7a335d3.jpg",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 6,
+      "name": "Paint on Anything",
+      "details": {
+        "category": "Art",
+        "venue": "Art Studio",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/paintonanything"
+      },
+      "basic_rules": "Individual event.",
+      "description": "We bring you an opportunity to relive your childhood with 'Paint on Anything.' Join us and unleash your inner child by painting on any surface of your choice.",
       "image": "https://picsum.photos/200",
       "day": "Day2"
     }
   },
   {
     "event": {
-      "id": 5,
-      "name": "Global Startup Pitch 2024",
+      "id": 7,
+      "name": "Doodling",
       "details": {
-        "category": "Business",
-        "venue": "Startup Hub, Auditorium",
-        "date": "2024-11-19",
-        "registration_link": "https://www.globalstartuppitch2024.com/register"
+        "category": "Art",
+        "venue": "Art Studio",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/doodling"
       },
-      "basic_rules": "Pitch presentations must be no longer than 10 minutes. No more than 2 team members may present.",
-      "description": "An exciting event where startup founders pitch their innovative ideas to a panel of investors and entrepreneurs.",
+      "basic_rules": "Individual event.",
+      "description": "Join our doodling art competition and bring your spontaneous creativity to the forefront! Doodling is the art of spontaneous, unplanned drawing often characterized by simple sketches, shapes, and designs. This event is a celebration of freehand drawing, welcoming artists of all levels to showcase their doodling prowess.",
+      "image": "https://th.bing.com/th/id/OIP.w3gjXBDn_-oHLyfbtaF3IAAAAA?rs=1&pid=ImgDetMain",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 8,
+      "name": "Origami",
+      "details": {
+        "category": "Art",
+        "venue": "Art Studio",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/origami"
+      },
+      "basic_rules": "Individual event.",
+      "description": "Come join us to test your skills in the ancient art of paper folding known as Origami! Fold your favorite model with precision and detail and stand a chance to win prizes!",
       "image": "https://picsum.photos/200",
-      "day": "Day3"
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 9,
+      "name": "Cosplay",
+      "details": {
+        "category": "Entertainment",
+        "venue": "Convention Hall",
+        "date": "2024-11-19",
+        "registration_link": "https://kr2024.com/register/cosplay"
+      },
+      "basic_rules": "Individual event.",
+      "description": "Celebrate Karnataka's spirit, unleash your creativity! Join us as we commemorate Karnataka Rajyotsava with a unique blend of culture, creativity, and cosplay with the Traditional Karnataka Costume showcase depicting the rich culture and heroism of our land.",
+      "image": "https://www.mlive.com/resizer/Ul2Crgu20Xtopvn01kWSa7-sYVw=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.mlive.com/home/mlive-media/width2048/img/entertainment_impact/photo/23642396-standard.jpg",
+      "day": "Day0"
+    }
+  },
+  {
+    "event": {
+      "id": 10,
+      "name": "Heavenly Voices",
+      "details": {
+        "category": "Music",
+        "venue": "Main Stage",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/heavenlyvoices"
+      },
+      "basic_rules": "Individual event, two categories: Light vocal solo (Filmy/Bhavageethe) and Classical vocal solo (Pure classical).",
+      "description": "Heavenly voices is a platform to embark on a musical adventure where every note, every lyric, and every performance paints a vibrant picture of our homeland Karnataka.",
+      "image": "https://vocalist.org.uk/wp-content/uploads/2020/08/singing-competitions.jpg",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 11,
+      "name": "Student Antyakshari",
+      "details": {
+        "category": "Music",
+        "venue": "Main Hall",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/studentantyakshari"
+      },
+      "basic_rules": "Group event of 2-3 members.",
+      "description": "Student Antyakshari is a lively team-based musical game popular in Indian culture. During this event, participants form teams and take turns singing Sandalwood songs. Teams compete to showcase their knowledge of Sandalwood songs across various genres. The game involves spontaneity, quick thinking, and a love for melodies, creating an engaging and entertaining atmosphere.",
+      "image": "https://cdn.slidesharecdn.com/ss_thumbnails/antakshari-160508092326-thumbnail-4.jpg?cb=1462699566",
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 12,
+      "name": "Dance Off",
+      "details": {
+        "category": "Dance",
+        "venue": "Main Stage",
+        "date": "2024-11-18",
+        "registration_link": "https://kr2024.com/register/danceoff"
+      },
+      "basic_rules": "Individual event.",
+      "description": "Join us for an electrifying clash of rhythm and energy at our MSRIT Dance Off! Witness the campus come alive with fierce performances as talented dancers showcase their moves in an epic showdown.",
+      "image": "https://www.indiaeve.com/images/events/Event324381214Img.jpg",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 13,
+      "name": "Indian Dance",
+      "details": {
+        "category": "Dance",
+        "venue": "Outdoor Stage",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/indiandance"
+      },
+      "basic_rules": "Individual event.",
+      "description": "Are you a budding dancer with a flair for the dramatic? Our college invites you to participate in its Indian Dance Solo Competition. This is your chance to perform on stage, impress the judges, and win exciting prizes.",
+      "image": "https://picsum.photos/200",
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 14,
+      "name": "Hook Step Contest",
+      "details": {
+        "category": "Dance",
+        "venue": "Outdoor Stage",
+        "date": "2024-11-19",
+        "registration_link": "https://kr2024.com/register/hookstepcontest"
+      },
+      "basic_rules": "Group event of 1-3 members.",
+      "description": "Join us for an electrifying dance extravaganza as we present the Hook Steps Contest! This high-energy event promises to showcase the most mesmerizing dance talents, heart-pumping music, and an atmosphere that will leave you spellbound.",
+      "image": "https://th.bing.com/th/id/OIP.z6QXrKPjZQjpzIvp7YMg-wHaE8?rs=1&pid=ImgDetMain",
+      "day": "Day0"
+    }
+  },
+  {
+    "event": {
+      "id": 15,
+      "name": "Know Our Land",
+      "details": {
+        "category": "Knowledge",
+        "venue": "Heritage Hall",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/knowourland"
+      },
+      "basic_rules": "Group event of 2-4 members. Exclusive event for non-Kannadigas.",
+      "description": "'Know our land' is an event with its main objective to spread a glimpse of Karnataka’s literature, culture, etc., to non-Kannadigas. As a part of Kannada Rajyotsava 2024, we want non-Kannadigas to express their knowledge and ideas about Karnataka and Kannada language through this event.",
+      "image": "https://as2.ftcdn.net/v2/jpg/05/06/73/47/1000_F_506734723_ajaT2Avrys2As06DXORmblWvskESuD7d.jpg",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 16,
+      "name": "Bon Voyage",
+      "details": {
+        "category": "Adventure",
+        "venue": "Campus Grounds",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/bonvoyage"
+      },
+      "basic_rules": "Group event of 3 members. Exclusive event for non-Kannadigas.",
+      "description": "Not all treasure is gold and silver made. This hunt is for every non-Kannadiga. Let's find out what the clues will lead to in this journey.",
+      "image": "https://picsum.photos/200",
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 17,
+      "name": "Minute to Win It",
+      "details": {
+        "category": "Challenge",
+        "venue": "Event Hall A",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/minutetowinit"
+      },
+      "basic_rules": "Group event of 4 members.",
+      "description": "Test your skills, beat the clock! Get ready for an adrenaline-packed evening of fun, teamwork, and competition! Teams are challenged to complete various tasks in a limited time frame.",
+      "image": "https://picsum.photos/200",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 18,
+      "name": "Hemmeya Kannadiga and Kannadati",
+      "details": {
+        "category": "Cultural",
+        "venue": "Cultural Hall",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/hemmeyakannadiga"
+      },
+      "basic_rules": "Individual event.",
+      "description": "Everyone takes pride in being recognized as Kannadiga/Kannadati. It’s time to win this splendid title through this flagship event of Kannada Rajyotsava.",
+      "image": "https://picsum.photos/200",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 19,
+      "name": "Acting Arena",
+      "details": {
+        "category": "Theater",
+        "venue": "Drama Hall",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/actingarena"
+      },
+      "basic_rules": "Group event of 3-5 members.",
+      "description": "Acting is a beautiful art where an artist lives the character of the story to entertain the audience. Acting Arena is a great platform providing you the opportunity to bring out the talented actors in you. Participants are expected to exhibit their own acting performance, followed by an impromptu.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Teatersport_-4.jpg/1200px-Teatersport_-4.jpg",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 20,
+      "name": "Cine Prapancha",
+      "details": {
+        "category": "Entertainment",
+        "venue": "Seminar Hall 2",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/cineprapancha"
+      },
+      "basic_rules": "Group event of 3 members.",
+      "description": "Who aren't the fans of movies? Cine Prapancha is a wonderful event that delights you with the amazing cinematic experience. Be a part of this event and showcase your splendid hold on Kannada movies-related knowledge.",
+      "image": "https://picsum.photos/200",
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 21,
+      "name": "Cooking Without Fire",
+      "details": {
+        "category": "Cooking",
+        "venue": "Cafeteria",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/cookingwithoutfire"
+      },
+      "basic_rules": "Individual event.",
+      "description": "A feast for the eyes and taste buds! Come showcase your culinary creativity in our specially curated event, 'Cooking Without Fire,' where innovation meets taste and the best chefs will be awarded! From refreshing salads to no-bake desserts, this event is curated to push you beyond your limits.",
+      "image": "https://th.bing.com/th/id/OIP.fV_mPgklSJ2gxyf8TC_KkAAAAA?rs=1&pid=ImgDetMain",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 22,
+      "name": "Treasure Hunt",
+      "details": {
+        "category": "Adventure",
+        "venue": "Campus Grounds",
+        "date": "2024-11-19",
+        "registration_link": "https://kr2024.com/register/treasurehunt"
+      },
+      "basic_rules": "Group event of 3 members.",
+      "description": "Embark on an exhilarating treasure hunt adventure! Join us for a day of mystery and excitement as you follow cryptic clues, solve challenging puzzles, and unravel the secrets hidden throughout the college. Form teams, strategize, and race against time to discover the ultimate treasure waiting at the journey's end. Are you ready to unlock the thrill of the unknown? The hunt begins now!",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/1L-LLM_Scavenger_Hunt_%283952858025%29.jpg",
+      "day": "Day0"
+    }
+  },
+  {
+    "event": {
+      "id": 23,
+      "name": "Criminal Inquest",
+      "details": {
+        "category": "Mystery",
+        "venue": "Investigation Room",
+        "date": "2024-11-19",
+        "registration_link": "https://kr2024.com/register/criminalinquest"
+      },
+      "basic_rules": "Group event of 3 members.",
+      "description": "Embark on a thrilling adventure with the Criminal Inquest challenge! Dive into an immersive experience where participants turn detectives, deciphering cryptic clues, piecing together puzzles, and unraveling the mystery to unveil the elusive criminal. This event combines teamwork and intellect as you race against time to solve the case. Sharpen your investigative skills and join us for an unforgettable evening of suspense, strategy, and ultimate triumph!",
+      "image": "https://safety4sea.com/wp-content/uploads/2017/03/investigation-general-e1490362759204.jpg",
+      "day": "Day0"
+    }
+  },
+  {
+    "event": {
+      "id": 24,
+      "name": "Mock Auctions",
+      "details": {
+        "category": "Finance",
+        "venue": "Business Hall",
+        "date": "2024-11-19",
+        "registration_link": "https://kr2024.com/register/mockauction"
+      },
+      "basic_rules": "Group event of 3 members.",
+      "description": "A 'Mock Auction' game, similar to an IPL auction, involves participants role-playing as team owners bidding on players in a simulated auction setup. Players are listed with their attributes, and participants bid virtual money to acquire them. The goal is to strategically build the strongest team within a set budget, imitating the dynamics of a real auction. It’s a test of negotiation, strategy, and decision-making.",
+      "image": "https://th.bing.com/th/id/OIP.ZpLqVlwnIVvqCFsM9a1EPQAAAA?rs=1&pid=ImgDetMain",
+      "day": "Day0"
+    }
+  },
+  {
+    "event": {
+      "id": 25,
+      "name": "Reels Making",
+      "details": {
+        "category": "Media",
+        "venue": "Photography Zone",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/reelsmaking"
+      },
+      "basic_rules": "Individual event.",
+      "description": "Capture the essence of Kannada Rajyotsava Fest 2024! In 'Reels Making,' film and edit the essence of the fest into an amazing one-minute reel. Capture the colors, traditions, and energy of Kannada Rajyotsava Fest 2024 in your unique way. It's your lens, your edit, your perspective. Show us your skills, and let the reel-making magic begin.",
+      "image": "https://picsum.photos/200",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 26,
+      "name": "Ramaiah’s Staffs Got Talent",
+      "details": {
+        "category": "Talent",
+        "venue": "Auditorium",
+        "date": "2024-11-19",
+        "registration_link": "https://kr2024.com/register/stafftalent"
+      },
+      "basic_rules": "Individual event. Exclusive for staff.",
+      "description": "Join us for an unforgettable event of entertainment, inspiration, and camaraderie as Ramaiah's staff showcase their exceptional talents in music, dance, mimicry, art, and many other fields. This event is exclusive for teaching and non-teaching staff of RIT!",
+      "image": "https://i.ytimg.com/vi/PkPG3M1g1Mo/maxresdefault.jpg",
+      "day": "Day0"
+    }
+  },
+  {
+    "event": {
+      "id": 27,
+      "name": "Staff Quiz",
+      "details": {
+        "category": "Quiz",
+        "venue": "Auditorium",
+        "date": "2024-11-21",
+        "registration_link": "https://kr2024.com/register/staffquiz"
+      },
+      "basic_rules": "Group event of 3 members. Exclusive for staff.",
+      "description": "A quiz centered on the rich culture of Karnataka, which helps students and staff to be more interested in the culture and history around them.",
+      "image": "https://picsum.photos/200",
+      "day": "Day2"
+    }
+  },
+  {
+    "event": {
+      "id": 28,
+      "name": "Staff Antyakshari",
+      "details": {
+        "category": "Music",
+        "venue": "Main Auditorium",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/staffantyakshari"
+      },
+      "basic_rules": "Group event of 2-3 members. Exclusive for staff.",
+      "description": "Staff Antyakshari is a lively team-based musical game popular in Indian culture. During this event, participants form teams and take turns singing Sandalwood songs. Teams compete against each other, showcasing their knowledge of songs from various genres. The game involves spontaneity, quick thinking, and a love for melodies, creating an engaging and entertaining atmosphere within the workplace.",
+      "image": "https://cdn.slidesharecdn.com/ss_thumbnails/antakshari-160508092326-thumbnail-4.jpg?cb=1462699566",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 29,
+      "name": "Gaming",
+      "details": {
+        "category": "E-sports",
+        "venue": "Gaming Zone",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/gaming"
+      },
+      "basic_rules": "Mobile Gaming Tournament: Group event of 4-5 members.",
+      "description": "Join us for an exciting BGMI tournament as part of our KR event. Showcase your skills, compete with fellow students, and aim for victory. All participants are welcome to register and be a part of this competitive gaming experience.",
+      "image": "https://th.bing.com/th/id/OIP.KeZLMpdNwYs3Hs3ZzRdRewHaE7?rs=1&pid=ImgDetMain",
+      "day": "Day1"
+    }
+  },
+  {
+    "event": {
+      "id": 30,
+      "name": "Photography",
+      "details": {
+        "category": "Art",
+        "venue": "Photography Zone",
+        "date": "2024-11-20",
+        "registration_link": "https://kr2024.com/register/photography"
+      },
+      "basic_rules": "Individual event. Only for phone photography.",
+      "description": "In 'Face-off Fest,' dive into the world of photography where creativity meets emotion. Engage in capturing portraits that tell a story, expressions that evoke powerful emotions. This event is a platform that inspires everyone to view the fest through a new lens called Emotions. Come, be a part of this enthralling journey to capture the best feeling of the fest!",
+      "image": "https://picsum.photos/200",
+      "day": "Day1"
     }
   }
 ]
