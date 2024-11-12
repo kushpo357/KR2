@@ -3,6 +3,7 @@ import Navbar from "./navbar/Navbar";
 import { Link } from "react-router-dom";
 
 const tabs = [
+  { name: 'All Events', day: 'All' },
   { name: 'Day0', day: 'Day0' },
   { name: 'Day1', day: 'Day1' },
   { name: 'Day2', day: 'Day2' },
@@ -33,7 +34,10 @@ export default function EventsGallery() {
       .catch((error) => console.error('Error loading data:', error));
   }, []);
 
-  const filteredCategories = categories.filter((category) => category.day === selectedDay);
+  // Filter events based on selected day, show all events if "All" is selected
+  const filteredCategories = selectedDay === 'All'
+    ? categories
+    : categories.filter((category) => category.day === selectedDay);
 
   return (
     <div className="bg-gray-900 text-gray-200 min-h-screen w-full">
