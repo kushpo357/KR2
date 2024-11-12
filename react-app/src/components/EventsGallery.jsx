@@ -13,7 +13,6 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
 
-
 export default function EventsGallery() {
   const [categories, setCategories] = useState([]);
   const [selectedDay, setSelectedDay] = useState(tabs[0].day);
@@ -38,11 +37,11 @@ export default function EventsGallery() {
   const filteredCategories = categories.filter((category) => category.day === selectedDay);
 
   return (
-    <div className="bg-white">
+    <div className="bg-gray-900 text-gray-200 min-h-screen w-full">
       <Navbar />
-      <div className="max-w-xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <h2 className="text-2xl font-extrabold tracking-tight text-gray-900">Events of KR</h2>
-        <p className="mt-4 text-base text-gray-500">Each day new event...</p>
+      <div className="w-full mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <h2 className="text-2xl font-extrabold tracking-tight text-white">Events of KR</h2>
+        <p className="mt-4 text-base text-gray-400">Each day new event...</p>
 
         {/* Tabs for day selection */}
         <div>
@@ -51,7 +50,7 @@ export default function EventsGallery() {
             <select
               id="tabs"
               name="tabs"
-              className="block w-full focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+              className="block w-full bg-gray-800 text-gray-200 border-gray-700 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
               value={selectedDay}
               onChange={(e) => setSelectedDay(e.target.value)}
             >
@@ -71,8 +70,8 @@ export default function EventsGallery() {
                   onClick={() => setSelectedDay(tab.day)}
                   className={classNames(
                     selectedDay === tab.day
-                      ? 'bg-gray-100 text-gray-700'
-                      : 'text-gray-500 hover:text-gray-700',
+                      ? 'bg-gray-700 text-white'
+                      : 'text-gray-400 hover:text-white',
                     'px-3 py-2 font-medium text-sm rounded-md'
                   )}
                   aria-current={selectedDay === tab.day ? 'page' : undefined}
@@ -83,28 +82,28 @@ export default function EventsGallery() {
             </nav>
           </div>
         </div>
+
         {/* Event items grid */}
         <div className="mt-10 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
           {filteredCategories.length > 0 ? (
             filteredCategories.map((category) => (
               <Link key={category.id} to={`/event/${category.id}`} className="group block">
-                <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden group-hover:opacity-75 lg:aspect-w-5 lg:aspect-h-6">
+                <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden group-hover:opacity-75">
                   <img
                     src={category.imageSrc}
                     alt={category.name}
                     className="w-full h-full object-center object-cover"
                   />
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-gray-900">{category.name}</h3>
-                <p className="mt-2 text-sm text-gray-500">{category.description}</p>
+                <h3 className="mt-4 text-base font-semibold text-white">{category.name}</h3>
+                <p className="mt-2 text-sm text-gray-400">{category.description}</p>
               </Link>
             ))
           ) : (
-            <p className="text-gray-500">No events for this day.</p>
+            <p className="text-gray-400">No events for this day.</p>
           )}
         </div>
       </div>
     </div>
   );
 }
-
