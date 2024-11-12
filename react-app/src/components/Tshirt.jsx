@@ -71,19 +71,26 @@ export default function Tshirt() {
                 dangerouslySetInnerHTML={{ __html: product.description }}
               />
 
-              {/* Buy Now Button: Start on Desktop, Center on Mobile */}
+              {/* Buy Now Button with Link */}
               <motion.form
                 className="mt-10 flex justify-center lg:justify-start"
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
               >
-                <button
-                  type="submit"
-                  className="max-w-xs w-full bg-yellow-400 text-black border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium hover:bg-red-500 hover:text-white shadow-lg transform transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-yellow-500"
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfZNmdK7Ytol51Wht5G-yPx41_IbcMKBupnQIngDCLgyLkH5A/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="max-w-xs w-full"
                 >
-                  Buy Now
-                </button>
+                  <button
+                    type="button"
+                    className="w-full bg-yellow-400 text-black border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium hover:bg-red-500 hover:text-white shadow-lg transform transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-yellow-500"
+                  >
+                    Buy Now
+                  </button>
+                </a>
               </motion.form>
             </motion.div>
           </div>
