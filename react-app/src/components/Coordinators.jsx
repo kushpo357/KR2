@@ -2,7 +2,7 @@ import InstagramIcon from '/src/assets/insta.svg';
 import Navbar from "./navbar/Navbar";
 import shreya from "../assets/shreya.png";
 import madhu from "../assets/madhu.png";
-import vidya from "../assets/Vidya.png";
+import vidya from "../assets/vidya.png";
 import pranav from "../assets/pranav.png";
 import shraddha from "../assets/shraddha.png";
 import karthik from "../assets/karthik.png";
