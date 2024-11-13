@@ -7,7 +7,7 @@
         "category": "Public Speaking",
         "venue": "Seminar Hall",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "2",
         "registration_link": "https://kr2024.com/register/debate"
       },
       "basic_rules": "Group event of 2 members.",
@@ -24,7 +24,7 @@
         "category": "Speaking",
         "venue": "Seminar Room 1",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/jam"
       },
       "basic_rules": "Individual event. Consists of three rounds.",
@@ -41,7 +41,7 @@
         "category": "Literary",
         "venue": "Library Conference Room",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/creativewriting"
       },
       "basic_rules": "Individual event (Poetry).",
@@ -58,7 +58,7 @@
         "category": "Quiz",
         "venue": "Lecture Hall B",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": 3,
         "registration_link": "https://kr2024.com/register/studentsquiz"
       },
       "basic_rules": "Group event of 3 members.",
@@ -75,7 +75,7 @@
         "category": "Art",
         "venue": "Outdoor Stage",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/rangoli"
       },
       "basic_rules": "Individual event.",
@@ -92,7 +92,7 @@
         "category": "Art",
         "venue": "Art Studio",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/paintonanything"
       },
       "basic_rules": "Individual event.",
@@ -109,7 +109,7 @@
         "category": "Art",
         "venue": "Art Studio",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/doodling"
       },
       "basic_rules": "Individual event.",
@@ -126,7 +126,7 @@
         "category": "Art",
         "venue": "Art Studio",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/origami"
       },
       "basic_rules": "Individual event.",
@@ -143,7 +143,7 @@
         "category": "Entertainment",
         "venue": "Convention Hall",
         "date": "2024-11-19",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/cosplay"
       },
       "basic_rules": "Individual event.",
@@ -160,7 +160,7 @@
         "category": "Music",
         "venue": "Main Stage",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://forms.gle/UYRjWcbf8G94GxJ69"
       },
       "basic_rules": "Individual event, two categories: Light vocal solo (Filmy/Bhavageethe) and Classical vocal solo (Pure classical).",
@@ -177,7 +177,7 @@
         "category": "Music",
         "venue": "Main Hall",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "2-3",
         "registration_link": "https://kr2024.com/register/studentantyakshari"
       },
       "basic_rules": "Group event of 2-3 members.",
@@ -194,7 +194,7 @@
         "category": "Dance",
         "venue": "Main Stage",
         "date": "2024-11-18",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/danceoff"
       },
       "basic_rules": "Individual event.",
@@ -211,7 +211,7 @@
         "category": "Dance",
         "venue": "Outdoor Stage",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/indiandance"
       },
       "basic_rules": "Individual event.",
@@ -228,7 +228,7 @@
         "category": "Dance",
         "venue": "Outdoor Stage",
         "date": "2024-11-19",
-        "team_size": 1,
+        "team_size": "1-3",
         "registration_link": "https://kr2024.com/register/hookstepcontest"
       },
       "basic_rules": "Group event of 1-3 members.",
@@ -245,7 +245,7 @@
         "category": "Knowledge",
         "venue": "Heritage Hall",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "2-4",
         "registration_link": "https://kr2024.com/register/knowourland"
       },
       "basic_rules": "Group event of 2-4 members. Exclusive event for non-Kannadigas.",
@@ -262,7 +262,7 @@
         "category": "Adventure",
         "venue": "Campus Grounds",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "3",
         "registration_link": "https://kr2024.com/register/bonvoyage"
       },
       "basic_rules": "Group event of 3 members. Exclusive event for non-Kannadigas.",
@@ -279,7 +279,7 @@
         "category": "Challenge",
         "venue": "Event Hall A",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "4",
         "registration_link": "https://forms.gle/Vd6qHGH4RWCydSsg8"
       },
       "basic_rules": "Group event of 4 members.",
@@ -296,7 +296,7 @@
         "category": "Cultural",
         "venue": "Cultural Hall",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/hemmeyakannadiga"
       },
       "basic_rules": "Individual event.",
@@ -313,7 +313,7 @@
         "category": "Theater",
         "venue": "Drama Hall",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "3-5",
         "registration_link": "https://kr2024.com/register/actingarena"
       },
       "basic_rules": "Group event of 3-5 members.",
@@ -330,7 +330,7 @@
         "category": "Entertainment",
         "venue": "Seminar Hall 2",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "3",
         "registration_link": "https://kr2024.com/register/cineprapancha"
       },
       "basic_rules": "Group event of 3 members.",
@@ -347,7 +347,7 @@
         "category": "Cooking",
         "venue": "Cafeteria",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "3",
         "registration_link": "https://kr2024.com/register/cookingwithoutfire"
       },
       "basic_rules": "Individual event.",
@@ -364,7 +364,7 @@
         "category": "Adventure",
         "venue": "Campus Grounds",
         "date": "2024-11-19",
-        "team_size": 1,
+        "team_size": "3",
         "registration_link": "https://forms.gle/QWmDp4ZJnsVy3isa7"
       },
       "basic_rules": "Group event of 3 members.",
@@ -381,7 +381,7 @@
         "category": "Mystery",
         "venue": "Investigation Room",
         "date": "2024-11-19",
-        "team_size": 1,
+        "team_size": "3",
         "registration_link": "https://forms.gle/DA4Chb4zYdw2HyBj8"
       },
       "basic_rules": "Group event of 3 members.",
@@ -398,7 +398,7 @@
         "category": "Finance",
         "venue": "Business Hall",
         "date": "2024-11-19",
-        "team_size": 1,
+        "team_size": "3",
         "registration_link": "https://forms.gle/hLjDvkaFupQbZu1t9"
       },
       "basic_rules": "Group event of 3 members.",
@@ -415,7 +415,7 @@
         "category": "Media",
         "venue": "Photography Zone",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/reelsmaking"
       },
       "basic_rules": "Individual event.",
@@ -432,7 +432,7 @@
         "category": "Talent",
         "venue": "Auditorium",
         "date": "2024-11-19",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/stafftalent"
       },
       "basic_rules": "Individual event. Exclusive for staff.",
@@ -449,7 +449,7 @@
         "category": "Quiz",
         "venue": "Auditorium",
         "date": "2024-11-21",
-        "team_size": 1,
+        "team_size": "3",
         "registration_link": "https://kr2024.com/register/staffquiz"
       },
       "basic_rules": "Group event of 3 members. Exclusive for staff.",
@@ -466,7 +466,7 @@
         "category": "Music",
         "venue": "Main Auditorium",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "2-3",
         "registration_link": "https://kr2024.com/register/staffantyakshari"
       },
       "basic_rules": "Group event of 2-3 members. Exclusive for staff.",
@@ -483,7 +483,7 @@
         "category": "E-sports",
         "venue": "Gaming Zone",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "4-5",
         "registration_link": "https://kr2024.com/register/gaming"
       },
       "basic_rules": "Mobile Gaming Tournament: Group event of 4-5 members.",
@@ -500,7 +500,7 @@
         "category": "Art",
         "venue": "Photography Zone",
         "date": "2024-11-20",
-        "team_size": 1,
+        "team_size": "1",
         "registration_link": "https://kr2024.com/register/photography"
       },
       "basic_rules": "Individual event. Only for phone photography.",
