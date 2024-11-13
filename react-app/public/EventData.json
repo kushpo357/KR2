@@ -29,7 +29,7 @@
       },
       "basic_rules": "Individual event. Consists of three rounds.",
       "description": "In 'Just a Minute,' you talk for one minute on a topic, but no pauses or saying the same thing twice. It's all about quick thinking and smooth talking!",
-      "image": "https://picsum.photos/200",
+      "image": "https://i.ytimg.com/vi/Im5ODq-_d3Y/maxresdefault.jpg",
       "day": "Day0"
     }
   },
@@ -97,7 +97,7 @@
       },
       "basic_rules": "Individual event.",
       "description": "We bring you an opportunity to relive your childhood with 'Paint on Anything.' Join us and unleash your inner child by painting on any surface of your choice.",
-      "image": "https://picsum.photos/200",
+      "image": "https://thumbs.dreamstime.com/b/fragment-surface-random-strokes-bright-paint-fragment-surface-random-strokes-bright-paint-218955885.jpg",
       "day": "Day2"
     }
   },
@@ -131,7 +131,7 @@
       },
       "basic_rules": "Individual event.",
       "description": "Come join us to test your skills in the ancient art of paper folding known as Origami! Fold your favorite model with precision and detail and stand a chance to win prizes!",
-      "image": "https://picsum.photos/200",
+      "image": "https://2.bp.blogspot.com/-d_KwCVG8tRc/VNtIK5NpdXI/AAAAAAAAFXU/FlRdRU7LSik/s1600/dragon%2Borigami%2Bfor%2Bkids.jpg",
       "day": "Day2"
     }
   },
@@ -216,7 +216,7 @@
       },
       "basic_rules": "Individual event.",
       "description": "Are you a budding dancer with a flair for the dramatic? Our college invites you to participate in its Indian Dance Solo Competition. This is your chance to perform on stage, impress the judges, and win exciting prizes.",
-      "image": "https://picsum.photos/200",
+      "image": "https://th.bing.com/th/id/OIP.Qgzp7YNtgIDaPy7VpibQDgHaEK?rs=1&pid=ImgDetMain",
       "day": "Day2"
     }
   },
@@ -267,7 +267,7 @@
       },
       "basic_rules": "Group event of 3 members. Exclusive event for non-Kannadigas.",
       "description": "Not all treasure is gold and silver made. This hunt is for every non-Kannadiga. Let's find out what the clues will lead to in this journey.",
-      "image": "https://picsum.photos/200",
+      "image": "https://i0.wp.com/www.ourkerrazyadventure.com/wp-content/uploads/2017/09/Treasure-Hunt-Ideas-Tips-for-organizing-a-Treasure-Hunt-2-e1505157914126.jpg?fit=3888%2C2592&ssl=1",
       "day": "Day2"
     }
   },
@@ -284,7 +284,7 @@
       },
       "basic_rules": "Group event of 4 members.",
       "description": "Test your skills, beat the clock! Get ready for an adrenaline-packed evening of fun, teamwork, and competition! Teams are challenged to complete various tasks in a limited time frame.",
-      "image": "https://picsum.photos/200",
+      "image": "https://i.ytimg.com/vi/S9yZzJUCC5o/maxresdefault.jpg",
       "day": "Day1"
     }
   },
@@ -301,7 +301,7 @@
       },
       "basic_rules": "Individual event.",
       "description": "Everyone takes pride in being recognized as Kannadiga/Kannadati. It’s time to win this splendid title through this flagship event of Kannada Rajyotsava.",
-      "image": "https://picsum.photos/200",
+      "image": "https://i.pinimg.com/736x/22/eb/37/22eb3731098259362741520dc802ef74.jpg",
       "day": "Day2"
     }
   },
@@ -335,7 +335,7 @@
       },
       "basic_rules": "Group event of 3 members.",
       "description": "Who aren't the fans of movies? Cine Prapancha is a wonderful event that delights you with the amazing cinematic experience. Be a part of this event and showcase your splendid hold on Kannada movies-related knowledge.",
-      "image": "https://picsum.photos/200",
+      "image": "https://th.bing.com/th/id/OIP.rogFdLtK6bKtkFBXwn94-QHaGX?rs=1&pid=ImgDetMain",
       "day": "Day2"
     }
   },
@@ -420,7 +420,7 @@
       },
       "basic_rules": "Individual event.",
       "description": "Capture the essence of Kannada Rajyotsava Fest 2024! In 'Reels Making,' film and edit the essence of the fest into an amazing one-minute reel. Capture the colors, traditions, and energy of Kannada Rajyotsava Fest 2024 in your unique way. It's your lens, your edit, your perspective. Show us your skills, and let the reel-making magic begin.",
-      "image": "https://picsum.photos/200",
+      "image": "https://th.bing.com/th/id/OIP.WUFLnBNnX00AullEgXxdzgHaE8?rs=1&pid=ImgDetMain",
       "day": "Day1"
     }
   },
@@ -433,7 +433,7 @@
         "venue": "ESB Seminar Hall 1",
         "date": "19-11-2024",
         "team_size": "1",
-        "registration_link": "null"
+        "registration_link": null
       },
       "basic_rules": "Individual event. Exclusive for staff.",
       "description": "Join us for an unforgettable event of entertainment, inspiration, and camaraderie as Ramaiah's staff showcase their exceptional talents in music, dance, mimicry, art, and many other fields. This event is exclusive for teaching and non-teaching staff of RIT!",
@@ -450,11 +450,11 @@
         "venue": "LHC Seminar Hall 2",
         "date": "21-11-2024",
         "team_size": "3",
-        "registration_link": "https://kr2024.com/register/staffquiz"
+        "registration_link": null
       },
       "basic_rules": "Group event of 3 members. Exclusive for staff.",
       "description": "A quiz centered on the rich culture of Karnataka, which helps students and staff to be more interested in the culture and history around them.",
-      "image": "https://picsum.photos/200",
+      "image": "https://th.bing.com/th/id/OIP.7PGP5oBE7I20AkUrl-VTlwHaHa?rs=1&pid=ImgDetMain",
       "day": "Day2"
     }
   },
@@ -467,7 +467,7 @@
         "venue": "ESB Seminar Hall 2",
         "date": "19-11-2024",
         "team_size": "2-3",
-        "registration_link": "https://kr2024.com/register/staffantyakshari"
+        "registration_link": null
       },
       "basic_rules": "Group event of 2-3 members. Exclusive for staff.",
       "description": "Staff Antyakshari is a lively team-based musical game popular in Indian culture. During this event, participants form teams and take turns singing Sandalwood songs. Teams compete against each other, showcasing their knowledge of songs from various genres. The game involves spontaneity, quick thinking, and a love for melodies, creating an engaging and entertaining atmosphere within the workplace.",

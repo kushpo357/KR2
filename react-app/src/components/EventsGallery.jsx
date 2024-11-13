@@ -91,11 +91,12 @@ export default function EventsGallery() {
           {filteredCategories.length > 0 ? (
             filteredCategories.map((category) => (
               <Link key={category.id} to={`/event/${category.id}`} className="group block">
-                <div className="aspect-w-3 aspect-h-2 rounded-lg overflow-hidden group-hover:opacity-75">
+                {/* Image container with fixed aspect ratio */}
+                <div className="w-full aspect-[7/10] rounded-lg overflow-hidden bg-gray-800">
                   <img
                     src={category.imageSrc}
                     alt={category.name}
-                    className="w-full h-full object-center object-cover"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
                 <h3 className="mt-4 text-base font-semibold text-white">{category.name}</h3>
