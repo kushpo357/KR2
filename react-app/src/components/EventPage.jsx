@@ -61,7 +61,7 @@ export default function EventPage() {
               <p className="text-gray-300">{event.description}</p>
             </div>
 
-            {/* Registration Button */}
+            {/* Registration Button1 */}
             <motion.form
               className="mt-10 flex justify-center lg:justify-start"
               initial={{ opacity: 0, y: 10 }}
