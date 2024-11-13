@@ -13,7 +13,7 @@ const people = [
     name: "Shreya G Shet",
     usn: "1MS21CV086",
     phone: "6363679309",
-    url: "https://instagram.com/shreya_g_shet",
+    url: "",
     photo: shreya,
   },
   {
