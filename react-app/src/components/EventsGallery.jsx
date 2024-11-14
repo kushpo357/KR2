@@ -90,14 +90,18 @@ export default function EventsGallery() {
         <div className="mt-10 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
           {filteredCategories.length > 0 ? (
             filteredCategories.map((category) => (
-              <Link key={category.id} to={`/event/${category.id}`} className="group block">
-                {/* Image container with broader aspect ratio */}
-                <div className="w-full aspect-[5/3] rounded-lg overflow-hidden bg-gray-800">
+              <Link key={category.id} to={`/event/${category.id}`} className="group block lg:mb-8">
+                {/* Image container with broader aspect ratio and hover overlay */}
+                <div className="w-full aspect-[5/3] rounded-lg overflow-hidden bg-gray-800 relative">
                   <img
                     src={category.imageSrc}
                     alt={category.name}
                     className="w-full h-full object-cover object-center"
                   />
+                  {/* Hover overlay */}
+                  <div className="absolute inset-0 bg-white bg-opacity-60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                    <span className="text-lg font-semibold text-gray-900">Click to know more</span>
+                  </div>
                 </div>
                 <h3 className="mt-4 text-base font-semibold text-white">{category.name}</h3>
                 <p className="mt-2 text-sm text-gray-400">{category.description}</p>
