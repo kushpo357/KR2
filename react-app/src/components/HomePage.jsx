@@ -109,7 +109,7 @@ export default function HomePage() {
                     {feature.name}
                   </motion.h3>
                   <motion.p
-                    className="mt-2 text-sm md:text-[1.2vw] text-white"
+                    className="mt-2 text-sm md:text-[1.2vw] leading-relaxed text-white"
                     variants={animationVariants}
                   >
                     {feature.description}

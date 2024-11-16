@@ -34,26 +34,25 @@ export default function EventsGallery() {
       .catch((error) => console.error('Error loading data:', error));
   }, []);
 
-  // Filter events based on selected day, show all events if "All" is selected
   const filteredCategories = selectedDay === 'All'
     ? categories
     : categories.filter((category) => category.day === selectedDay);
 
   return (
-    <div className="bg-gray-900 text-gray-200 min-h-screen w-full">
+    <div className="bg-[#0B0B0B] text-gray-200 min-h-screen w-full">
       <Navbar />
-      <div className="w-full mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-extrabold tracking-tight text-white">Events of KR</h2>
-        <p className="mt-4 text-base text-gray-400">Each day new event...</p>
+      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight text-white">Events of KR</h2>
+        <p className="mt-4 text-lg text-gray-400">Explore each day's events...</p>
 
         {/* Tabs for day selection */}
-        <div>
+        <div className="mt-6">
           <div className="sm:hidden">
             <label htmlFor="tabs" className="sr-only">Select a tab</label>
             <select
               id="tabs"
               name="tabs"
-              className="block w-full bg-gray-800 text-gray-200 border-gray-700 rounded-md focus:ring-indigo-500 focus:border-indigo-500"
+              className="block w-full bg-gray-800 text-gray-200 border-gray-700 rounded-md py-2 px-3 focus:ring-indigo-500 focus:border-indigo-500"
               value={selectedDay}
               onChange={(e) => setSelectedDay(e.target.value)}
             >
@@ -65,7 +64,7 @@ export default function EventsGallery() {
             </select>
           </div>
 
-          <div className="hidden sm:block">
+          <div className="hidden sm:flex justify-center space-x-4 mt-4">
             <nav className="flex space-x-4" aria-label="Tabs">
               {tabs.map((tab) => (
                 <button
@@ -73,9 +72,9 @@ export default function EventsGallery() {
                   onClick={() => setSelectedDay(tab.day)}
                   className={classNames(
                     selectedDay === tab.day
-                      ? 'bg-gray-700 text-white'
+                      ? 'bg-indigo-600 text-white'
                       : 'text-gray-400 hover:text-white',
-                    'px-3 py-2 font-medium text-sm rounded-md'
+                    'px-4 py-2 font-medium text-sm rounded-md transition duration-200 ease-in-out'
                   )}
                   aria-current={selectedDay === tab.day ? 'page' : undefined}
                 >
@@ -87,28 +86,27 @@ export default function EventsGallery() {
         </div>
 
         {/* Event items grid */}
-        <div className="mt-10 space-y-12 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8">
+        <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
           {filteredCategories.length > 0 ? (
             filteredCategories.map((category) => (
-              <Link key={category.id} to={`/event/${category.id}`} className="group block lg:mb-8">
-                {/* Image container with broader aspect ratio and hover overlay */}
-                <div className="w-full aspect-[5/3] rounded-lg overflow-hidden bg-gray-800 relative">
+              <Link key={category.id} to={`/event/${category.id}`} className="group block rounded-lg overflow-hidden shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                <div className="relative aspect-w-16 aspect-h-9 bg-gray-800">
                   <img
                     src={category.imageSrc}
                     alt={category.name}
-                    className="w-full h-full object-cover object-center"
+                    className="w-full h-full object-cover"
                   />
-                  {/* Hover overlay */}
-                  <div className="absolute inset-0 bg-white bg-opacity-60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                    <span className="text-lg font-semibold text-gray-900">Click to know more</span>
+                  <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-transparent opacity-75"></div>
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <span className="text-lg font-semibold text-white bg-gray-800 bg-opacity-80 px-4 py-2 rounded-md">Click to know more</span>
                   </div>
                 </div>
-                <h3 className="mt-4 text-base font-semibold text-white">{category.name}</h3>
+                <h3 className="mt-4 text-xl font-semibold text-white">{category.name}</h3>
                 <p className="mt-2 text-sm text-gray-400">{category.description}</p>
               </Link>
             ))
           ) : (
-            <p className="text-gray-400">No events for this day.</p>
+            <p className="text-gray-400 text-center col-span-full">No events for this day.</p>
           )}
         </div>
       </div>

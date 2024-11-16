@@ -47,7 +47,7 @@ export default function EventPage() {
             {/* Details Box */}
             <div className="border border-gray-700 bg-gray-900 p-6 rounded-lg">
               <h2 className="text-2xl font-bold text-yellow-400 mb-4">Details</h2>
-              <ul className="text-gray-300 space-y-2 flex flex-col md:flex-row md:flex-wrap md:space-y-0 md:space-x-4">
+              <ul className="text-gray-300 space-y-2 flex flex-col ">
                 <li className="flex-1 md:w-1/2"><strong>Category:</strong> {event.details.category}</li>
                 <li className="flex-1 md:w-1/2"><strong>Venue:</strong> {event.details.venue}</li>
                 <li className="flex-1 md:w-1/2"><strong>Date:</strong> {event.details.date}</li>
@@ -58,12 +58,12 @@ export default function EventPage() {
             {/* Description Box */}
             <div className="border border-gray-700 bg-gray-900 p-6 rounded-lg">
               <h2 className="text-2xl font-bold text-yellow-400 mb-4">Description</h2>
-              <p className="text-gray-300">{event.description}</p>
+              <p className="text-gray-300 leading-relaxed">{event.description}</p>
             </div>
 
             {/* Registration Button1 */}
             <motion.form
-              className="mt-10 flex justify-center lg:justify-start"
+              className="mt-10 flex justify-center"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.7 }}
