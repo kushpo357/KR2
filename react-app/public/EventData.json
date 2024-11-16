@@ -13,9 +13,31 @@
       "basic_rules": "Group event of 2 members.",
       "description": "Join us for a spirited celebration of Karnataka Rajyotsava as we host a dynamic debate event, dedicated to honoring the rich culture and language of Kannada. Engage in thought-provoking discussions as participants eloquently express their perspectives on topics that reflect the essence of Karnataka's heritage. This event honors Karnataka's linguistic and cultural diversity, fostering a platform for ideas to flourish and the Rajyotsava spirit to thrive. Come be a part of this intellectually stimulating celebration of Kannada language and culture.",
       "image": "https://th.bing.com/th/id/OIP.26RZkMUfwzdDnD9QYhzSnwAAAA?rs=1&pid=ImgDetMain",
-      "day": "Day0"
+      "day": "Day 0",
+      "rules": {
+        "team_size": "Group event of 2 members.",
+        "Round Details": {
+          "Stage_1": [
+            "Each team member speaks for and against a motion, chosen a day before the event.",
+            "3 minutes per speech, followed by a judge's question for 1 minute."
+          ],
+          "Stage_2": [
+            "Four teams qualify to the British Parliamentary-style round, with 15 minutes of prep time (no internet).",
+            "Each participant speaks for 3 minutes, with a single question from the opposing side lasting 15 seconds."
+          ]
+        },
+        "Timing": {
+          "Stage_1": "3 minutes per speaker, plus 1 minute for questions.",
+          "Stage_2": "3 minutes per speech, plus a 1-minute Q&A per team."
+        },
+        "PermittedResources": "Internet use for Stage 1 only.",
+        "JudgingCriteria": "Argument clarity, adherence to topic, response quality.",
+        "Prohibitions": "Disrespectful language or interruptions.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
+
   {
     "event": {
       "id": 2,
@@ -28,9 +50,35 @@
         "registration_link": "https://forms.gle/DuZyP6AdYsa26cKa7"
       },
       "basic_rules": "Individual event. Consists of three rounds.",
-      "description": "In 'Just a Minute,' you talk for one minute on a topic, but no pauses or saying the same thing twice. It's all about quick thinking and smooth talking!",
+      "description": "In 'Just a Minute,' participants must demonstrate quick thinking and smooth delivery, speaking flawlessly on assigned topics. Join this exciting event to showcase your eloquence and wit.",
       "image": "https://i.ytimg.com/vi/Im5ODq-_d3Y/maxresdefault.jpg",
-      "day": "Day0"
+      "day": "Day 0",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Round_1": [
+            "Participants pick a yellow chit (topic) and a red chit (word not to be used).",
+            "2 minutes of prep time and 1 minute of speaking time."
+          ],
+          "Round_2": [
+            "Participants write answers to questions displayed on slides within the time limit.",
+            "Only the first answer written will be considered."
+          ],
+          "Round_3": [
+            "Participants tell a story based on a given genre in 2.5 minutes.",
+            "Creativity, fluency, and adherence to the 'no English' rule are evaluated."
+          ]
+        },
+        "Timing": {
+          "Round_1": "2 minutes prep, 1 minute speech.",
+          "Round_2": "Time limit defined on spot.",
+          "Round_3": "2.5 minutes."
+        },
+        "PermittedResources": "None.",
+        "JudgingCriteria": "Fluency, creativity, adherence to rules.",
+        "Prohibitions": "Use of the forbidden word or derogatory language.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -44,10 +92,31 @@
         "team_size": "1",
         "registration_link": "https://forms.gle/Jjb6zRhpYjmusLLW6"
       },
-      "basic_rules": "Individual event (Poetry).",
-      "description": "Ignite the power of your pen, unleash your creativity to fuel it and create a masterpiece. Let your words speak and let your works take the spotlight with creative writing in the form of poetry.",
+      "basic_rules": "Individual event.",
+      "description": "Ignite the power of your pen and unleash your creativity to create a masterpiece. Let your words speak and take the spotlight with creative writing, showcasing the magic of your imagination.",
       "image": "https://images.for9a.com/thumb/max-2000-auto-100-jpeg/opportunity/73593-999.jpg",
-      "day": "Day0"
+      "day": "Day 0",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Stage_1": [
+            "Participants are given a common prompt to write a story in English or Kannada within 30 minutes.",
+            "Top 8 participants will be selected for the next stage."
+          ],
+          "Stage_2": [
+            "Finalists choose one picture and incorporate a personalized line into their story within 15 minutes.",
+            "Stories are presented on stage."
+          ]
+        },
+        "Timing": {
+          "Stage_1": "30 minutes.",
+          "Stage_2": "15 minutes prep, followed by presentations."
+        },
+        "PermittedResources": "None.",
+        "JudgingCriteria": "Storytelling, imagery, and presentation.",
+        "Prohibitions": "Plagiarism or inappropriate content.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -58,13 +127,34 @@
         "category": "Quiz",
         "venue": "DES Seminar Hall",
         "date": "16-11-2024",
-        "team_size": 3,
+        "team_size": "3",
         "registration_link": "https://forms.gle/99CqrhkUCmZoYcxc7"
       },
       "basic_rules": "Group event of 3 members.",
-      "description": "A quiz centered on the rich culture of Karnataka, which helps students and staff to be more interested in the culture and history around them.",
+      "description": "Test your knowledge of Karnataka's rich culture and history in this fun and educational quiz. Join fellow enthusiasts in a challenging and engaging event that celebrates our heritage.",
       "image": "https://www.riddle.com/imageservice/q_80,f_auto,c_fill,w_960,h_540/ed6cozjawexldjs7yedn",
-      "day": "Day0"
+      "day": "Day 0",
+      "rules": {
+        "team_size": "Group event of 3 members.",
+        "Round Details": {
+          "Stage_1": [
+            "Elimination round with general questions on Karnataka’s culture, poets, places, and movies.",
+            "Top-scoring teams move to the next stage."
+          ],
+          "Stage_2": [
+            "Final round with quiz questions based on Karnataka's personalities, landmarks, and achievements.",
+            "15 questions with clues displayed on a screen."
+          ]
+        },
+        "Timing": {
+          "Stage_1": "30 minutes.",
+          "Stage_2": "30 minutes."
+        },
+        "PermittedResources": "Pens and paper.",
+        "JudgingCriteria": "Accuracy and speed of answers.",
+        "Prohibitions": "Use of electronic devices.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -79,9 +169,25 @@
         "registration_link": "https://docs.google.com/forms/d/1NCr3ylc4x2A8XPgE713ijsO_RQGa-N68qY_ZtkXEH3E/edit#settings"
       },
       "basic_rules": "Individual event.",
-      "description": "Create vibrant patterns with colorful powders and bring the tradition of rangoli to life! Join us for an enchanting event where your creativity takes center stage. Express your artistic flair on the canvas of the floor, celebrating the beauty of colors and Karnataka's culture. Let your imagination run wild in this mesmerizing rangoli event!",
+      "description": "Create vibrant patterns with colorful powders and bring the tradition of rangoli to life! Join us for an enchanting event where your creativity takes center stage. Express your artistic flair on the canvas of the floor, celebrating the beauty of colors and Karnataka's culture.",
       "image": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/38255546261509.5607ca7a335d3.jpg",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Single Stage": [
+            "Participants have 1 hour and 30 minutes to create a rangoli.",
+            "Designs must adhere to the medium chosen (poster colors, flower petals, sawdust, pulses, or rice)."
+          ]
+        },
+        "Timing": {
+          "Event Duration": "1 hour 30 minutes."
+        },
+        "PermittedResources": "Participants bring their own materials.",
+        "JudgingCriteria": "Creativity, color combinations, and adherence to the medium.",
+        "Prohibitions": "No use of adhesives or pre-made designs.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -98,7 +204,23 @@
       "basic_rules": "Individual event.",
       "description": "We bring you an opportunity to relive your childhood with 'Paint on Anything.' Join us and unleash your inner child by painting on any surface of your choice.",
       "image": "https://thumbs.dreamstime.com/b/fragment-surface-random-strokes-bright-paint-fragment-surface-random-strokes-bright-paint-218955885.jpg",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Single Stage": [
+            "Participants can paint on any surface of their choice (stone, face, etc.).",
+            "Only paints are allowed; no accessories or additional materials can be used."
+          ]
+        },
+        "Timing": {
+          "Event Duration": "1 hour."
+        },
+        "PermittedResources": "Participants bring their own painting materials.",
+        "JudgingCriteria": "Creativity, uniqueness, and execution.",
+        "Prohibitions": "Use of materials other than paints.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -113,9 +235,25 @@
         "registration_link": "https://docs.google.com/forms/d/1vd1oIsUR73qdCAVtONZktQ_tDgZSl1kF7qQkJsF9YDI/edit#settings"
       },
       "basic_rules": "Individual event.",
-      "description": "Join our doodling art competition and bring your spontaneous creativity to the forefront! Doodling is the art of spontaneous, unplanned drawing often characterized by simple sketches, shapes, and designs. This event is a celebration of freehand drawing, welcoming artists of all levels to showcase their doodling prowess.",
+      "description": "Join our doodling art competition and bring your spontaneous creativity to the forefront! Celebrate freehand drawing by showcasing your doodling prowess.",
       "image": "https://th.bing.com/th/id/OIP.w3gjXBDn_-oHLyfbtaF3IAAAAA?rs=1&pid=ImgDetMain",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Single Stage": [
+            "Participants are given paper to doodle within the time limit.",
+            "No extra paper will be provided."
+          ]
+        },
+        "Timing": {
+          "Event Duration": "1 hour."
+        },
+        "PermittedResources": "Participants bring their own stationery (pens, markers, etc.).",
+        "JudgingCriteria": "Creativity, originality, and execution.",
+        "Prohibitions": "Use of extra paper or any pre-made references.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -132,7 +270,23 @@
       "basic_rules": "Individual event.",
       "description": "Come join us to test your skills in the ancient art of paper folding known as Origami! Fold your favorite model with precision and detail and stand a chance to win prizes!",
       "image": "https://2.bp.blogspot.com/-d_KwCVG8tRc/VNtIK5NpdXI/AAAAAAAAFXU/FlRdRU7LSik/s1600/dragon%2Borigami%2Bfor%2Bkids.jpg",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Single Stage": [
+            "Participants fold papers to create their origami models.",
+            "No cutting is allowed; gluing is allowed only for presentation."
+          ]
+        },
+        "Timing": {
+          "Event Duration": "1 hour."
+        },
+        "PermittedResources": "Participants bring their own papers.",
+        "JudgingCriteria": "Creativity, presentation, and adherence to rules.",
+        "Prohibitions": "Use of phones or copying designs.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -147,9 +301,25 @@
         "registration_link": "https://docs.google.com/forms/d/e/1FAIpQLSe5hXArrcETiFITg7KPUDcnKHzzN-cYJYUeLixHcR9RX8-e8Q/viewform?usp=sf_link"
       },
       "basic_rules": "Individual event.",
-      "description": "Celebrate Karnataka's spirit, unleash your creativity! Join us as we commemorate Karnataka Rajyotsava with a unique blend of culture, creativity, and cosplay with the Traditional Karnataka Costume showcase depicting the rich culture and heroism of our land.",
+      "description": "Celebrate Karnataka's spirit and unleash your creativity with our cosplay competition! Depict the rich culture and heroism of Karnataka through traditional costumes.",
       "image": "https://www.mlive.com/resizer/Ul2Crgu20Xtopvn01kWSa7-sYVw=/1280x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.mlive.com/home/mlive-media/width2048/img/entertainment_impact/photo/23642396-standard.jpg",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Single Stage": [
+            "Participants showcase their costumes inspired by Karnataka's traditional attire, folklore, or literature.",
+            "Each participant has 2–3 minutes to present on stage."
+          ]
+        },
+        "Timing": {
+          "Event Duration": "2–3 minutes per participant."
+        },
+        "PermittedResources": "Safe props and accessories.",
+        "JudgingCriteria": "Authenticity, creativity, and stage presence.",
+        "Prohibitions": "Use of hazardous materials or disrespectful depictions.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -158,7 +328,7 @@
       "name": "Heavenly Voices",
       "details": {
         "category": "Music",
-        "venue": "ESB seminar Hall 2",
+        "venue": "ESB Seminar Hall 2",
         "date": "16-11-2024",
         "team_size": "1",
         "registration_link": "https://forms.gle/UYRjWcbf8G94GxJ69"
@@ -166,7 +336,28 @@
       "basic_rules": "Individual event, two categories: Light vocal solo (Filmy/Bhavageethe) and Classical vocal solo (Pure classical).",
       "description": "Heavenly voices is a platform to embark on a musical adventure where every note, every lyric, and every performance paints a vibrant picture of our homeland Karnataka.",
       "image": "https://vocalist.org.uk/wp-content/uploads/2020/08/singing-competitions.jpg",
-      "day": "Day0"
+      "day": "Day 0",
+      "rules": {
+        "team_size": "Individual event.",
+        "Round Details": {
+          "Light Vocal Solo": [
+            "Participants perform Bhavageethe, Filmy, or Bhajan songs in Kannada.",
+            "Maximum time limit: 5 minutes (including setup)."
+          ],
+          "Classical Vocal Solo": [
+            "Participants perform in Hindustani or Carnatic style.",
+            "Maximum time limit: 7 minutes (including setup)."
+          ]
+        },
+        "Timing": {
+          "Light Vocal Solo": "5 minutes.",
+          "Classical Vocal Solo": "7 minutes."
+        },
+        "PermittedResources": "One accompanist is allowed.",
+        "JudgingCriteria": "Technique, expression, and stage presence.",
+        "Prohibitions": "Songs in languages other than Kannada for light vocals.",
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -181,9 +372,27 @@
         "registration_link": "https://docs.google.com/forms/d/1d3BEPtnBvFgbre02n21M6iIjz7bj9Ugdd0j5Hb5Atgs/edit#settings"
       },
       "basic_rules": "Group event of 2-3 members.",
-      "description": "Student Antyakshari is a lively team-based musical game popular in Indian culture. During this event, participants form teams and take turns singing Sandalwood songs. Teams compete to showcase their knowledge of Sandalwood songs across various genres. The game involves spontaneity, quick thinking, and a love for melodies, creating an engaging and entertaining atmosphere.",
+      "description": "Student Antyakshari is a lively team-based musical game popular in Indian culture. During this event, participants form teams and take turns singing Sandalwood songs.",
       "image": "https://cdn.slidesharecdn.com/ss_thumbnails/antakshari-160508092326-thumbnail-4.jpg?cb=1462699566",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "2-3 members.",
+        "Round Details": {
+          "Stage_1": ["Teams sing Sandalwood songs taking turns."],
+          "Stage_2": ["Advancing teams compete in challenging rounds."],
+          "Stage_3": ["Top teams compete in a final elimination round."]
+        },
+        "Timing": {
+          "Each Round": "Each round has a set time limit announced on the spot."
+        },
+        "Prohibitions": "Use of electronic devices or incorrect lyrics.",
+        "AdditionalRules": "Judges' decisions are final.",
+        "JudgmentCriteria": [
+          "Knowledge of Sandalwood songs.",
+          "Accuracy of lyrics and melody.",
+          "Team coordination and spontaneity."
+        ]
+      }
     }
   },
   {
@@ -198,9 +407,31 @@
         "registration_link": "https://forms.gle/oeeiS2j6Z8L1ZYuK9"
       },
       "basic_rules": "Individual event.",
-      "description": "Join us for an electrifying clash of rhythm and energy at our MSRIT Dance Off! Witness the campus come alive with fierce performances as talented dancers showcase their moves in an epic showdown.",
+      "description": "Join us for an electrifying clash of rhythm and energy at our MSRIT Dance Off! Witness fierce performances as talented dancers showcase their moves.",
       "image": "https://www.indiaeve.com/images/events/Event324381214Img.jpg",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "Individual.",
+        "Round Details": {
+          "Preliminary Round": [
+            "Participants perform a 1+1 minute routine or freestyle to a DJ's choice."
+          ],
+          "Battle Rounds": [
+            "Freestyle dance-off; finalists battle with increasing round durations."
+          ]
+        },
+        "Timing": {
+          "Preliminary Round": "1+1 minutes.",
+          "Battle Rounds": "Up to 1 minute per participant."
+        },
+        "Prohibitions": "Vulgarity in moves, costumes, or physical contact.",
+        "AdditionalRules": "Judges' decisions are final.",
+        "JudgmentCriteria": [
+          "Energy and stage presence.",
+          "Accuracy and creativity of dance moves.",
+          "Audience engagement and overall impact."
+        ]
+      }
     }
   },
   {
@@ -215,9 +446,27 @@
         "registration_link": "https://docs.google.com/forms/d/18LPhBNjp5b4ua1iLE3ly652q0_dsg7RsorviuPnWBRM/edit#settings"
       },
       "basic_rules": "Individual event.",
-      "description": "Are you a budding dancer with a flair for the dramatic? Our college invites you to participate in its Indian Dance Solo Competition. This is your chance to perform on stage, impress the judges, and win exciting prizes.",
+      "description": "Participate in the Indian Dance Solo Competition. Perform, impress the judges, and win exciting prizes.",
       "image": "https://th.bing.com/th/id/OIP.Qgzp7YNtgIDaPy7VpibQDgHaEK?rs=1&pid=ImgDetMain",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "Individual.",
+        "Round Details": {
+          "Single Stage": [
+            "Perform solo in chosen category: Classical, Folk, or Bollywood.",
+            "Judged on choreography, expression, timing, and authenticity."
+          ]
+        },
+        "Timing": { "Each Round": "3–5 minutes." },
+        "PermittedResources": "Props (must align with the style).",
+        "AdditionalRules": "Judges' decisions are final.",
+        "JudgmentCriteria": [
+          "Choreography and creativity.",
+          "Expression and timing.",
+          "Authenticity to the chosen style.",
+          "Overall presentation and stage presence."
+        ]
+      }
     }
   },
   {
@@ -232,9 +481,31 @@
         "registration_link": "https://forms.gle/W9mZ7sJUNReyZdSM8"
       },
       "basic_rules": "Group event of 1-3 members.",
-      "description": "Join us for an electrifying dance extravaganza as we present the Hook Steps Contest! This high-energy event promises to showcase the most mesmerizing dance talents, heart-pumping music, and an atmosphere that will leave you spellbound.",
+      "description": "Join us for an electrifying dance extravaganza as we present the Hook Steps Contest! High-energy event showcasing mesmerizing dance talents.",
       "image": "https://th.bing.com/th/id/OIP.z6QXrKPjZQjpzIvp7YMg-wHaE8?rs=1&pid=ImgDetMain",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "1-3 members.",
+        "Round Details": {
+          "Round 1": [
+            "Teams perform hook steps for 3 chits (songs) in sequence."
+          ],
+          "Round 2": [
+            "Rapid-fire round; members perform randomly played songs."
+          ]
+        },
+        "Timing": {
+          "Round 1": "30 seconds per song.",
+          "Round 2": "Continuous back-to-back."
+        },
+        "Prohibitions": "Missing steps or incorrect choreography.",
+        "AdditionalRules": "Judges' decisions are final.",
+        "JudgmentCriteria": [
+          "Accuracy in performing hook steps.",
+          "Energy and synchronization (for groups).",
+          "Expressions and audience engagement."
+        ]
+      }
     }
   },
   {
@@ -242,16 +513,32 @@
       "id": 15,
       "name": "Know Our Land",
       "details": {
-        "category": "General  knowledge",
+        "category": "General Knowledge",
         "venue": "Classroom",
         "date": "19-11-2024",
         "team_size": "2-4",
         "registration_link": "https://docs.google.com/forms/d/1IgSEtrnvfxTWdfb1633GXgVuulGDkLYlPxcum4aKI2M/edit"
       },
-      "basic_rules": "Group event of 2-4 members. Exclusive event for non-Kannadigas.",
-      "description": "'Know our land' is an event with its main objective to spread a glimpse of Karnataka’s literature, culture, etc., to non-Kannadigas. As a part of Kannada Rajyotsava 2024, we want non-Kannadigas to express their knowledge and ideas about Karnataka and Kannada language through this event.",
+      "basic_rules": "Group event of 2-4 members. Exclusive for non-Kannadigas.",
+      "description": "'Know our land' spreads a glimpse of Karnataka’s literature and culture to non-Kannadigas. Celebrate Kannada Rajyotsava 2024 by showcasing your knowledge of Karnataka.",
       "image": "https://as2.ftcdn.net/v2/jpg/05/06/73/47/1000_F_506734723_ajaT2Avrys2As06DXORmblWvskESuD7d.jpg",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "2-4 members.",
+        "Round Details": {
+          "Round 1": ["Guess famous Karnataka personalities and places."],
+          "Round 2": ["Quiz on Karnataka culture and achievements."],
+          "Round 3": ["Solve puzzles and place landmarks on a Karnataka map."]
+        },
+        "Timing": { "Each Round": "30 minutes per round." },
+        "Prohibitions": "Use of mobile phones.",
+        "AdditionalRules": "Judges' decisions are final.",
+        "JudgmentCriteria": [
+          "Accuracy in identifying clues and answers.",
+          "Speed and teamwork.",
+          "Depth of knowledge about Karnataka culture and history."
+        ]
+      }
     }
   },
   {
@@ -265,10 +552,29 @@
         "team_size": "3",
         "registration_link": "https://docs.google.com/forms/d/1l6LBGPctyYuVesN-hpYX71lZK6tW5-r40mfirY56OAw/edit#settings"
       },
-      "basic_rules": "Group event of 3 members. Exclusive event for non-Kannadigas.",
+      "basic_rules": "Group event of 3 members. Exclusive for non-Kannadigas.",
       "description": "Not all treasure is gold and silver made. This hunt is for every non-Kannadiga. Let's find out what the clues will lead to in this journey.",
       "image": "https://i0.wp.com/www.ourkerrazyadventure.com/wp-content/uploads/2017/09/Treasure-Hunt-Ideas-Tips-for-organizing-a-Treasure-Hunt-2-e1505157914126.jpg?fit=3888%2C2592&ssl=1",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "3 members.",
+        "Round Details": {
+          "Multiple Rounds": [
+            "Participants solve clues and complete tasks at various checkpoints.",
+            "Elimination after each round."
+          ]
+        },
+        "Timing": {
+          "Each Round": "Each round has time constraints announced on spot."
+        },
+        "Prohibitions": "Use of mobile phones or external help.",
+        "AdditionalRules": "Judges' decisions are final.",
+        "JudgmentCriteria": [
+          "Accuracy in solving clues.",
+          "Team coordination and strategy.",
+          "Efficiency in completing tasks within time limits."
+        ]
+      }
     }
   },
   {
@@ -285,7 +591,24 @@
       "basic_rules": "Group event of 4 members.",
       "description": "Test your skills, beat the clock! Get ready for an adrenaline-packed evening of fun, teamwork, and competition! Teams are challenged to complete various tasks in a limited time frame.",
       "image": "https://i.ytimg.com/vi/S9yZzJUCC5o/maxresdefault.jpg",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "4 members.",
+        "Round Details": {
+          "Stage_1": [
+            "Teams complete a series of five tasks.",
+            "Tasks must be completed within the given time limit."
+          ]
+        },
+        "Timing": { "Each Round": "5 minutes per stage." },
+        "Prohibitions": "Misbehavior or rule violations lead to disqualification.",
+        "AdditionalRules": "Referee’s decision is final.",
+        "JudgmentCriteria": [
+          "Efficiency in completing tasks.",
+          "Team coordination and strategy.",
+          "Adherence to rules and time management."
+        ]
+      }
     }
   },
   {
@@ -302,7 +625,26 @@
       "basic_rules": "Individual event.",
       "description": "Everyone takes pride in being recognized as Kannadiga/Kannadati. It’s time to win this splendid title through this flagship event of Kannada Rajyotsava.",
       "image": "https://i.pinimg.com/736x/22/eb/37/22eb3731098259362741520dc802ef74.jpg",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "Individual.",
+        "Round Details": {
+          "Stage_1": [
+            "Participants answer questions about Karnataka's culture, heritage, and language."
+          ],
+          "Stage_2": [
+            "Finalists perform impromptu tasks or answer rapid-fire questions."
+          ]
+        },
+        "Timing": { "Each Round": "Time limits per stage announced on spot." },
+        "Prohibitions": "Use of mobile phones or external assistance.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Knowledge of Karnataka's culture, heritage, and language.",
+          "Spontaneity and creativity in impromptu tasks.",
+          "Clarity and confidence in responses."
+        ]
+      }
     }
   },
   {
@@ -317,9 +659,31 @@
         "registration_link": "https://docs.google.com/forms/d/1PrLsq3EoLgcR0CNJcINdvuElO5c5T1wZMrQLm_SAmWU/edit#settings"
       },
       "basic_rules": "Group event of 3-5 members.",
-      "description": "Acting is a beautiful art where an artist lives the character of the story to entertain the audience. Acting Arena is a great platform providing you the opportunity to bring out the talented actors in you. Participants are expected to exhibit their own acting performance, followed by an impromptu.",
+      "description": "Acting is a beautiful art where an artist lives the character of the story to entertain the audience. Acting Arena is a great platform providing you the opportunity to bring out the talented actors in you.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Teatersport_-4.jpg/1200px-Teatersport_-4.jpg",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "3-5 members.",
+        "Round Details": {
+          "Stage_1": [
+            "Teams perform a pre-prepared skit within the time limit."
+          ],
+          "Stage_2": [
+            "Teams perform an impromptu skit based on a given situation."
+          ]
+        },
+        "Timing": {
+          "Stage_1": "3–5 minutes.",
+          "Stage_2": "2–3 minutes."
+        },
+        "Prohibitions": "Use of offensive language or inappropriate content.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Storytelling and creativity.",
+          "Acting skills, including dialogue delivery and expressions.",
+          "Team synchronization and stage presence."
+        ]
+      }
     }
   },
   {
@@ -334,9 +698,33 @@
         "registration_link": "https://docs.google.com/forms/d/1T9JdxNbelNw_-0eGGhyctmJUfudQPe22Xdt87cxBDaM/edit#settings"
       },
       "basic_rules": "Group event of 3 members.",
-      "description": "Who aren't the fans of movies? Cine Prapancha is a wonderful event that delights you with the amazing cinematic experience. Be a part of this event and showcase your splendid hold on Kannada movies-related knowledge.",
+      "description": "Who isn't a fan of movies? Cine Prapancha is a wonderful event that delights you with an amazing cinematic experience. Showcase your splendid knowledge of Kannada movies!",
       "image": "https://th.bing.com/th/id/OIP.rogFdLtK6bKtkFBXwn94-QHaGX?rs=1&pid=ImgDetMain",
-      "day": "Day2"
+      "day": "Day 2",
+      "rules": {
+        "team_size": "3 members.",
+        "Round Details": {
+          "Stage_1": [
+            "Quiz round with trivia about Kannada movies and actors."
+          ],
+          "Stage_2": [
+            "Identify movie clips, dialogues, or music from Kannada cinema."
+          ],
+          "Stage_3": [
+            "Final round tests deep cinematic knowledge through puzzles and rapid questions."
+          ]
+        },
+        "Timing": {
+          "Each Round": "Each round has a specific time limit announced on the spot."
+        },
+        "Prohibitions": "Use of mobile phones or other devices.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Knowledge of Kannada cinema.",
+          "Speed and accuracy in identifying movie-related content.",
+          "Team coordination and creativity in the final round."
+        ]
+      }
     }
   },
   {
@@ -350,10 +738,30 @@
         "team_size": "1-3",
         "registration_link": "https://forms.gle/cqRmPk72NBZVAUVKA"
       },
-      "basic_rules": "Individual event.",
-      "description": "A feast for the eyes and taste buds! Come showcase your culinary creativity in our specially curated event, 'Cooking Without Fire,' where innovation meets taste and the best chefs will be awarded! From refreshing salads to no-bake desserts, this event is curated to push you beyond your limits.",
+      "basic_rules": "Group event of 1-3 members.",
+      "description": "A feast for the eyes and taste buds! Showcase your culinary creativity in 'Cooking Without Fire,' where innovation meets taste and the best chefs will be awarded!",
       "image": "https://th.bing.com/th/id/OIP.fV_mPgklSJ2gxyf8TC_KkAAAAA?rs=1&pid=ImgDetMain",
-      "day": "Day0"
+      "day": "Day 0",
+      "rules": {
+        "team_size": "1-3 members.",
+        "Round Details": {
+          "Single Stage": [
+            "Teams prepare dishes without the use of fire.",
+            "Focus on creativity, presentation, and taste."
+          ]
+        },
+        "Timing": {
+          "Each Round": "All dishes must be completed within 1 hour."
+        },
+        "PermittedResources": "Participants bring their own ingredients and utensils.",
+        "Prohibitions": "No precooked, preboiled, or prechopped items.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Creativity in dish presentation.",
+          "Taste and innovation in using ingredients.",
+          "Adherence to the theme and rules."
+        ]
+      }
     }
   },
   {
@@ -368,9 +776,28 @@
         "registration_link": "https://forms.gle/QWmDp4ZJnsVy3isa7"
       },
       "basic_rules": "Group event of 3 members.",
-      "description": "Embark on an exhilarating treasure hunt adventure! Join us for a day of mystery and excitement as you follow cryptic clues, solve challenging puzzles, and unravel the secrets hidden throughout the college. Form teams, strategize, and race against time to discover the ultimate treasure waiting at the journey's end. Are you ready to unlock the thrill of the unknown? The hunt begins now!",
+      "description": "Embark on an exhilarating treasure hunt adventure! Solve puzzles, follow cryptic clues, and unravel mysteries hidden throughout the college in this thrilling event.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/1L-LLM_Scavenger_Hunt_%283952858025%29.jpg",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "3 members.",
+        "Round Details": {
+          "Multiple Rounds": [
+            "Teams solve clues and complete tasks to progress through checkpoints.",
+            "Elimination occurs after each round."
+          ]
+        },
+        "Timing": {
+          "Each Round": "Time limits for each round are set on the spot."
+        },
+        "Prohibitions": "Use of mobile phones or external help.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Accuracy in solving clues.",
+          "Teamwork and collaboration.",
+          "Efficiency in completing tasks within time limits."
+        ]
+      }
     }
   },
   {
@@ -385,9 +812,28 @@
         "registration_link": "https://forms.gle/DA4Chb4zYdw2HyBj8"
       },
       "basic_rules": "Group event of 3 members.",
-      "description": "Embark on a thrilling adventure with the Criminal Inquest challenge! Dive into an immersive experience where participants turn detectives, deciphering cryptic clues, piecing together puzzles, and unraveling the mystery to unveil the elusive criminal. This event combines teamwork and intellect as you race against time to solve the case. Sharpen your investigative skills and join us for an unforgettable evening of suspense, strategy, and ultimate triumph!",
+      "description": "Dive into the role of a detective in 'Criminal Inquest.' Solve clues, piece together puzzles, and unravel mysteries to unveil the elusive criminal.",
       "image": "https://safety4sea.com/wp-content/uploads/2017/03/investigation-general-e1490362759204.jpg",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "3 members.",
+        "Round Details": {
+          "Multiple Rounds": [
+            "Participants solve crime-based puzzles and complete tasks.",
+            "Eliminations occur after each round."
+          ]
+        },
+        "Timing": {
+          "Each Round": "Time limits for each stage are announced on the spot."
+        },
+        "Prohibitions": "Use of mobile phones or external assistance.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Logical reasoning and problem-solving skills.",
+          "Team coordination and strategy.",
+          "Accuracy in solving crime-based puzzles."
+        ]
+      }
     }
   },
   {
@@ -402,9 +848,28 @@
         "registration_link": "https://forms.gle/hLjDvkaFupQbZu1t9"
       },
       "basic_rules": "Group event of 3 members.",
-      "description": "A 'Mock Auction' game, similar to an IPL auction, involves participants role-playing as team owners bidding on players in a simulated auction setup. Players are listed with their attributes, and participants bid virtual money to acquire them. The goal is to strategically build the strongest team within a set budget, imitating the dynamics of a real auction. It’s a test of negotiation, strategy, and decision-making.",
+      "description": "Participate in the 'Mock Auction' game, where strategy, negotiation, and decision-making take center stage. Bid on players, build a strong team, and stay within your budget!",
       "image": "https://th.bing.com/th/id/OIP.ZpLqVlwnIVvqCFsM9a1EPQAAAA?rs=1&pid=ImgDetMain",
-      "day": "Day0"
+      "day": "Day 0",
+      "rules": {
+        "team_size": "3 members.",
+        "Round Details": {
+          "Stage 1": ["Initial quiz round determines the order of bidding."],
+          "Stage 2": [
+            "Participants bid on players, strategizing to build the strongest team within a budget."
+          ]
+        },
+        "Timing": {
+          "Each Round": "Each bidding session has a specific time limit."
+        },
+        "Prohibitions": "Exceeding budget or breaking auction rules.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Strategy and decision-making in bidding.",
+          "Effective utilization of the allocated budget.",
+          "Team collaboration and negotiation skills."
+        ]
+      }
     }
   },
   {
@@ -413,15 +878,35 @@
       "name": "Reels Making",
       "details": {
         "category": "Media",
-        "venue": "online",
+        "venue": "Online",
         "date": "To be announced",
         "team_size": "1",
         "registration_link": "https://docs.google.com/forms/d/1jEjTKURgP8hf2tiH4veeSWKZDE6eJmzGQw1IqgKCzLE/edit#settings"
       },
       "basic_rules": "Individual event.",
-      "description": "Capture the essence of Kannada Rajyotsava Fest 2024! In 'Reels Making,' film and edit the essence of the fest into an amazing one-minute reel. Capture the colors, traditions, and energy of Kannada Rajyotsava Fest 2024 in your unique way. It's your lens, your edit, your perspective. Show us your skills, and let the reel-making magic begin.",
+      "description": "Capture the essence of Kannada Rajyotsava Fest 2024! Film and edit the vibrant colors, traditions, and energy of the fest into a one-minute reel.",
       "image": "https://th.bing.com/th/id/OIP.WUFLnBNnX00AullEgXxdzgHaE8?rs=1&pid=ImgDetMain",
-      "day": "Day1"
+      "day": "Day 1",
+      "rules": {
+        "team_size": "Individual.",
+        "Round Details": {
+          "Single Stage": [
+            "Create a high-quality, one-minute reel reflecting Kannada Rajyotsava Fest 2024."
+          ]
+        },
+        "Timing": {
+          "Each Round": "Submit the reel within the deadline (date to be announced)."
+        },
+        "PermittedResources": "Participants may use phones or cameras to record.",
+        "Prohibitions": "Content with offensive language, politics, or sensitive topics.",
+        "AdditionalRules": "Judges’ decisions are final.",
+        "JudgmentCriteria": [
+          "Creativity and originality in the reel.",
+          "Adherence to the theme of Kannada Rajyotsava Fest 2024.",
+          "Technical quality (editing, transitions, and sound).",
+          "Emotional impact and engagement."
+        ]
+      }
     }
   },
   {
@@ -438,7 +923,33 @@
       "basic_rules": "Individual event. Exclusive for staff.",
       "description": "Join us for an unforgettable event of entertainment, inspiration, and camaraderie as Ramaiah's staff showcase their exceptional talents in music, dance, mimicry, art, and many other fields. This event is exclusive for teaching and non-teaching staff of RIT!",
       "image": "https://i.ytimg.com/vi/PkPG3M1g1Mo/maxresdefault.jpg",
-      "day": "Day0"
+      "day": "Day0",
+      "rules": {
+        "team_size": "Individual.",
+        "Round Details": {
+          "Round 1": [
+            "Participants showcase their talent (e.g., music, dance, mimicry, art).",
+            "Props and materials, if required, must be brought by the participant.",
+            "Judges score performances on a scale of 10."
+          ],
+          "Round 2": [
+            "Participants pick chits containing various activities.",
+            "Preparation time of 5 minutes is given.",
+            "Performances or activities are evaluated on a scale of 10."
+          ]
+        },
+        "Timing": {
+          "Each Round": "Each participant will get up to 5 minutes for preparation in Round 2 and appropriate time slots during performances."
+        },
+        "PermittedResources": "Participants may bring their own materials, such as sheets, pens, colors, or props, needed for their performance.",
+        "Prohibitions": "Content with offensive language, politics, or sensitive topics.",
+        "JudgingCriteria": [
+          "Originality of the performance.",
+          "Execution and creativity.",
+          "Engagement and stage presence."
+        ],
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -455,7 +966,29 @@
       "basic_rules": "Group event of 3 members. Exclusive for staff.",
       "description": "A quiz centered on the rich culture of Karnataka, which helps students and staff to be more interested in the culture and history around them.",
       "image": "https://th.bing.com/th/id/OIP.7PGP5oBE7I20AkUrl-VTlwHaHa?rs=1&pid=ImgDetMain",
-      "day": "Day2"
+      "day": "Day2",
+      "rules": {
+        "Timing": {
+          "Each Round": "Each round lasts for 30 minutes. Total event duration will depend on the number of rounds."
+        },
+        "PermittedResources": "Participants can only use pens and papers provided by the organizers.",
+        "Round Details": {
+          "Preliminary Round": [
+            "Questions will be based on Karnataka's culture, history, and current events.",
+            "Each team must submit answers within the allotted time."
+          ],
+          "Final Round": [
+            "Top teams will participate in a rapid-fire round.",
+            "Quick response times and accuracy will determine winners."
+          ]
+        },
+        "JudgingCriteria": [
+          "Accuracy of answers.",
+          "Speed of response in the final round.",
+          "Team collaboration during rounds."
+        ],
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -472,7 +1005,29 @@
       "basic_rules": "Group event of 2-3 members. Exclusive for staff.",
       "description": "Staff Antyakshari is a lively team-based musical game popular in Indian culture. During this event, participants form teams and take turns singing Sandalwood songs. Teams compete against each other, showcasing their knowledge of songs from various genres. The game involves spontaneity, quick thinking, and a love for melodies, creating an engaging and entertaining atmosphere within the workplace.",
       "image": "https://cdn.slidesharecdn.com/ss_thumbnails/antakshari-160508092326-thumbnail-4.jpg?cb=1462699566",
-      "day": "Day1"
+      "day": "Day1",
+      "rules": {
+        "Timing": {
+          "Each Round": "Each team gets 1 minute to respond during their turn. Total duration depends on the number of teams."
+        },
+        "PermittedResources": "No use of mobile phones or other devices is allowed. Teams may only rely on their knowledge of songs.",
+        "Round Details": {
+          "Preliminary Round": [
+            "Teams must sing songs starting with the last letter of the previous team’s song.",
+            "Songs must be from Sandalwood movies."
+          ],
+          "Final Round": [
+            "A themed round where songs must fit the announced theme.",
+            "Speed and accuracy in singing songs will be emphasized."
+          ]
+        },
+        "JudgingCriteria": [
+          "Knowledge of songs.",
+          "Melody and accuracy in singing.",
+          "Team coordination and spontaneity."
+        ],
+        "AdditionalRules": "Judges’ decisions are final."
+      }
     }
   },
   {
@@ -489,7 +1044,32 @@
       "basic_rules": "Mobile Gaming Tournament: Group event of 4-5 members.",
       "description": "Join us for an exciting BGMI tournament as part of our KR event. Showcase your skills, compete with fellow students, and aim for victory. All participants are welcome to register and be a part of this competitive gaming experience.",
       "image": "https://th.bing.com/th/id/OIP.KeZLMpdNwYs3Hs3ZzRdRewHaE7?rs=1&pid=ImgDetMain",
-      "day": "Day1"
+      "day": "Day1",
+      "rules": {
+        "Timing": {
+          "Each Round": "Each match lasts for 15-20 minutes, depending on the game format."
+        },
+        "PermittedResources": "Only mobile phones are allowed. Participants must use their registered BGMI usernames.",
+        "Round Details": {
+          "Knockout Rounds": [
+            "Teams compete in TDM matches. Losing teams are eliminated.",
+            "Top teams progress to the semifinals and finals."
+          ],
+          "Finals": [
+            "Winning teams from knockout stages compete in the final match.",
+            "Points are calculated based on kills and survival."
+          ]
+        },
+        "JudgingCriteria": [
+          "Total points scored.",
+          "Team coordination and strategy.",
+          "Adherence to gaming rules and fair play."
+        ],
+        "AdditionalRules": [
+          "No hacks or unfair software tools are allowed.",
+          "Judges’ and referees’ decisions are final."
+        ]
+      }
     }
   },
   {
@@ -506,7 +1086,29 @@
       "basic_rules": "Individual event. Only for phone photography.",
       "description": "In 'Face-off Fest,' dive into the world of photography where creativity meets emotion. Engage in capturing portraits that tell a story, expressions that evoke powerful emotions. This event is a platform that inspires everyone to view the fest through a new lens called Emotions. Come, be a part of this enthralling journey to capture the best feeling of the fest!",
       "image": "https://picsum.photos/200",
-      "day": "Day1"
+      "day": "Day1",
+      "rules": {
+        "Timing": {
+          "Each Round": "Participants must capture and upload photos within the time allotted by the organizers."
+        },
+        "PermittedResources": "Only phone cameras are allowed. Basic editing is permitted, but no AI enhancements or addition/removal of elements.",
+        "Round Details": {
+          "Submission Stage": [
+            "Participants submit up to 4 photos based on the event theme.",
+            "Both original and edited versions must be provided if editing is done."
+          ]
+        },
+        "JudgingCriteria": [
+          "Creativity and originality.",
+          "Adherence to the theme.",
+          "Technical quality and emotional impact."
+        ],
+        "AdditionalRules": [
+          "Photos must be captured during the event timeframe.",
+          "No offensive or inappropriate content is allowed.",
+          "Judges’ decisions are final."
+        ]
+      }
     }
   }
 ]
