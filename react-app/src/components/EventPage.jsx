@@ -146,7 +146,7 @@ export default function EventPage() {
 
             {/* Registration Button1 */}
             <motion.form
-              className="mt-10 flex justify-center lg:justify-start"
+              className="mt-10 flex justify-center"
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.7 }}
