@@ -64,6 +64,9 @@ export default function EventPage() {
                   <strong>Date:</strong> {event.details.date}
                 </li>
                 <li className="flex-1 md:w-1/2">
+                  <strong>Timing:</strong> {event.details.timing}
+                </li>
+                <li className="flex-1 md:w-1/2">
                   <strong>Team Size:</strong> {event.details.team_size}
                 </li>
               </ul>

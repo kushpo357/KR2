@@ -4,6 +4,7 @@
       "id": 1,
       "name": "Debate",
       "details": {
+        "timing": "1:00 pm",
         "category": "Public Speaking",
         "venue": "LHC Seminar Hall 2",
         "date": "16-11-2024",
@@ -37,12 +38,12 @@
       }
     }
   },
-
   {
     "event": {
       "id": 2,
       "name": "Just A Minute (JAM)",
       "details": {
+        "timing": "1:00 pm",
         "category": "Speaking",
         "venue": "DES Seminar Hall",
         "date": "16-11-2024",
@@ -86,6 +87,7 @@
       "id": 3,
       "name": "Creative Writing",
       "details": {
+        "timing": "1:00 pm",
         "category": "Literary",
         "venue": "Classroom",
         "date": "16-11-2024",
@@ -124,6 +126,7 @@
       "id": 4,
       "name": "Student Quiz",
       "details": {
+        "timing": "1:00 pm",
         "category": "Quiz",
         "venue": "DES Seminar Hall",
         "date": "16-11-2024",
@@ -162,6 +165,7 @@
       "id": 5,
       "name": "Rangoli",
       "details": {
+        "timing": "1:00 pm",
         "category": "Art",
         "venue": "ESB Basement",
         "date": "20-11-2024",
@@ -195,6 +199,7 @@
       "id": 6,
       "name": "Paint on Anything",
       "details": {
+        "timing": "1:00 pm",
         "category": "Art",
         "venue": "In front of Amphitheatre",
         "date": "20-11-2024",
@@ -228,6 +233,7 @@
       "id": 7,
       "name": "Doodling",
       "details": {
+        "timing": "4:00 pm - 5:30 pm",
         "category": "Art",
         "venue": "Amphitheatre",
         "date": "19-11-2024",
@@ -261,6 +267,7 @@
       "id": 8,
       "name": "Origami",
       "details": {
+        "timing": "1:00 pm",
         "category": "Art",
         "venue": "Classroom",
         "date": "20-11-2024",
@@ -294,6 +301,7 @@
       "id": 9,
       "name": "Cosplay",
       "details": {
+        "timing": "1:00 - 2:00",
         "category": "Entertainment",
         "venue": "Quadrangle",
         "date": "19-11-2024",
@@ -327,6 +335,7 @@
       "id": 10,
       "name": "Heavenly Voices",
       "details": {
+        "timing": "1:00 pm",
         "category": "Music",
         "venue": "ESB Seminar Hall 2",
         "date": "16-11-2024",
@@ -365,6 +374,7 @@
       "id": 11,
       "name": "Student Antyakshari",
       "details": {
+        "timing": "1:00 pm",
         "category": "Music",
         "venue": "LHC Seminar Hall 1",
         "date": "21-11-2024",
@@ -378,9 +388,15 @@
       "rules": {
         "team_size": "2-3 members.",
         "Round Details": {
-          "Stage_1": ["Teams sing Sandalwood songs taking turns."],
-          "Stage_2": ["Advancing teams compete in challenging rounds."],
-          "Stage_3": ["Top teams compete in a final elimination round."]
+          "Stage_1": [
+            "Teams sing Sandalwood songs taking turns."
+          ],
+          "Stage_2": [
+            "Advancing teams compete in challenging rounds."
+          ],
+          "Stage_3": [
+            "Top teams compete in a final elimination round."
+          ]
         },
         "Timing": {
           "Each Round": "Each round has a set time limit announced on the spot."
@@ -400,6 +416,7 @@
       "id": 12,
       "name": "Dance Off",
       "details": {
+        "timing": "4:00 pm onwards",
         "category": "Dance",
         "venue": "Basketball Court",
         "date": "20-11-2024",
@@ -439,6 +456,7 @@
       "id": 13,
       "name": "Indian Dance",
       "details": {
+        "timing": "1:00 pm",
         "category": "Dance",
         "venue": "ESB Seminar Hall 2",
         "date": "20-11-2024",
@@ -457,7 +475,9 @@
             "Judged on choreography, expression, timing, and authenticity."
           ]
         },
-        "Timing": { "Each Round": "3–5 minutes." },
+        "Timing": {
+          "Each Round": "3–5 minutes."
+        },
         "PermittedResources": "Props (must align with the style).",
         "AdditionalRules": "Judges' decisions are final.",
         "JudgmentCriteria": [
@@ -474,6 +494,7 @@
       "id": 14,
       "name": "Hook Steps Contest",
       "details": {
+        "timing": "3:00pm - 4:30pm",
         "category": "Dance",
         "venue": "Quadrangle",
         "date": "19-11-2024",
@@ -513,6 +534,7 @@
       "id": 15,
       "name": "Know Our Land",
       "details": {
+        "timing": "3:30 pm - 6:00 pm",
         "category": "General Knowledge",
         "venue": "Classroom",
         "date": "19-11-2024",
@@ -526,11 +548,19 @@
       "rules": {
         "team_size": "2-4 members.",
         "Round Details": {
-          "Round 1": ["Guess famous Karnataka personalities and places."],
-          "Round 2": ["Quiz on Karnataka culture and achievements."],
-          "Round 3": ["Solve puzzles and place landmarks on a Karnataka map."]
+          "Round 1": [
+            "Guess famous Karnataka personalities and places."
+          ],
+          "Round 2": [
+            "Quiz on Karnataka culture and achievements."
+          ],
+          "Round 3": [
+            "Solve puzzles and place landmarks on a Karnataka map."
+          ]
         },
-        "Timing": { "Each Round": "30 minutes per round." },
+        "Timing": {
+          "Each Round": "30 minutes per round."
+        },
         "Prohibitions": "Use of mobile phones.",
         "AdditionalRules": "Judges' decisions are final.",
         "JudgmentCriteria": [
@@ -546,6 +576,7 @@
       "id": 16,
       "name": "Bon Voyage",
       "details": {
+        "timing": "1:00 pm",
         "category": "Adventure",
         "venue": "Quadrangle",
         "date": "20-11-2024",
@@ -582,6 +613,7 @@
       "id": 17,
       "name": "Minute to Win It",
       "details": {
+        "timing": "1:00 pm",
         "category": "Challenge",
         "venue": "Quadrangle",
         "date": "20-11-2024",
@@ -600,7 +632,9 @@
             "Tasks must be completed within the given time limit."
           ]
         },
-        "Timing": { "Each Round": "5 minutes per stage." },
+        "Timing": {
+          "Each Round": "5 minutes per stage."
+        },
         "Prohibitions": "Misbehavior or rule violations lead to disqualification.",
         "AdditionalRules": "Referee’s decision is final.",
         "JudgmentCriteria": [
@@ -616,6 +650,7 @@
       "id": 18,
       "name": "Hemmeya Kannadiga and Kannadati",
       "details": {
+        "timing": "1:00 pm",
         "category": "Cultural",
         "venue": "Amphitheatre",
         "date": "20-11-2024",
@@ -636,7 +671,9 @@
             "Finalists perform impromptu tasks or answer rapid-fire questions."
           ]
         },
-        "Timing": { "Each Round": "Time limits per stage announced on spot." },
+        "Timing": {
+          "Each Round": "Time limits per stage announced on spot."
+        },
         "Prohibitions": "Use of mobile phones or external assistance.",
         "AdditionalRules": "Judges’ decisions are final.",
         "JudgmentCriteria": [
@@ -652,6 +689,7 @@
       "id": 19,
       "name": "Acting Arena",
       "details": {
+        "timing": "3:30 pm - 6:00 pm",
         "category": "Theater",
         "venue": "ESB Seminar Hall 1",
         "date": "19-11-2024",
@@ -691,6 +729,7 @@
       "id": 20,
       "name": "Cine Prapancha",
       "details": {
+        "timing": "1:00 pm",
         "category": "Entertainment",
         "venue": "ESB Seminar Hall 1",
         "date": "20-11-2024",
@@ -732,6 +771,7 @@
       "id": 21,
       "name": "Cooking Without Fire",
       "details": {
+        "timing": "1:00 pm",
         "category": "Cooking",
         "venue": "Classroom",
         "date": "16-11-2024",
@@ -769,6 +809,7 @@
       "id": 22,
       "name": "Treasure Hunt",
       "details": {
+        "timing": "3:00 pm - 5:30 pm",
         "category": "Adventure",
         "venue": "Quadrangle",
         "date": "19-11-2024",
@@ -805,6 +846,7 @@
       "id": 23,
       "name": "Criminal Inquest",
       "details": {
+        "timing": "3:30 pm - 6:00 pm",
         "category": "Mystery",
         "venue": "LHC Seminar Hall 2",
         "date": "19-11-2024",
@@ -841,6 +883,7 @@
       "id": 24,
       "name": "Mock Auctions",
       "details": {
+        "timing": "3:30 pm - 6:00 pm",
         "category": "Finance",
         "venue": "Apex Auditorium",
         "date": "19-11-2024",
@@ -854,7 +897,9 @@
       "rules": {
         "team_size": "3 members.",
         "Round Details": {
-          "Stage 1": ["Initial quiz round determines the order of bidding."],
+          "Stage 1": [
+            "Initial quiz round determines the order of bidding."
+          ],
           "Stage 2": [
             "Participants bid on players, strategizing to build the strongest team within a budget."
           ]
@@ -877,6 +922,7 @@
       "id": 25,
       "name": "Reels Making",
       "details": {
+        "timing": "1:00 pm",
         "category": "Media",
         "venue": "Online",
         "date": "To be announced",
@@ -914,6 +960,7 @@
       "id": 26,
       "name": "Ramaiah’s Staffs Got Talent",
       "details": {
+        "timing": "1:00 pm",
         "category": "Talent",
         "venue": "ESB Seminar Hall 1",
         "date": "19-11-2024",
@@ -957,6 +1004,7 @@
       "id": 27,
       "name": "Staff Quiz",
       "details": {
+        "timing": "1:00 pm",
         "category": "Quiz",
         "venue": "LHC Seminar Hall 2",
         "date": "21-11-2024",
@@ -996,6 +1044,7 @@
       "id": 28,
       "name": "Staff Antyakshari",
       "details": {
+        "timing": "4:30 pm - 6:00 pm",
         "category": "Music",
         "venue": "ESB Seminar Hall 2",
         "date": "19-11-2024",
@@ -1035,6 +1084,7 @@
       "id": 29,
       "name": "Gaming",
       "details": {
+        "timing": "3:30 pm - 6:00 pm",
         "category": "E-sports",
         "venue": "DES Seminar Hall",
         "date": "19-11-2024",
@@ -1077,6 +1127,7 @@
       "id": 30,
       "name": "Photography",
       "details": {
+        "timing": "1:00 pm",
         "category": "Art",
         "venue": "Online",
         "date": "To be announced",
