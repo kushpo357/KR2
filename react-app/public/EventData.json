@@ -165,7 +165,7 @@
       "id": 5,
       "name": "Rangoli",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:30 pm - 5:00 pm",
         "category": "Art",
         "venue": "ESB Basement",
         "date": "20-11-2024",
@@ -199,7 +199,7 @@
       "id": 6,
       "name": "Paint on Anything",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:30 pm - 5:00 pm",
         "category": "Art",
         "venue": "In front of Amphitheatre",
         "date": "20-11-2024",
@@ -267,7 +267,7 @@
       "id": 8,
       "name": "Origami",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:30 pm - 5:00 pm",
         "category": "Art",
         "venue": "Classroom",
         "date": "20-11-2024",
@@ -374,7 +374,7 @@
       "id": 11,
       "name": "Student Antyakshari",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:30 pm - 5:00 pm",
         "category": "Music",
         "venue": "LHC Seminar Hall 1",
         "date": "21-11-2024",
@@ -456,7 +456,7 @@
       "id": 13,
       "name": "Indian Dance",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:30 pm - 6:00 pm",
         "category": "Dance",
         "venue": "ESB Seminar Hall 2",
         "date": "20-11-2024",
@@ -576,7 +576,7 @@
       "id": 16,
       "name": "Bon Voyage",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:00 pm - 6:00 pm",
         "category": "Adventure",
         "venue": "Quadrangle",
         "date": "20-11-2024",
@@ -613,7 +613,7 @@
       "id": 17,
       "name": "Minute to Win It",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "1:00 pm - 2:00 pm",
         "category": "Challenge",
         "venue": "Quadrangle",
         "date": "20-11-2024",
@@ -650,7 +650,7 @@
       "id": 18,
       "name": "Hemmeya Kannadiga and Kannadati",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:30 pm - 6:00 pm",
         "category": "Cultural",
         "venue": "Amphitheatre",
         "date": "20-11-2024",
@@ -729,7 +729,7 @@
       "id": 20,
       "name": "Cine Prapancha",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "3:30 pm - 6:00 pm",
         "category": "Entertainment",
         "venue": "ESB Seminar Hall 1",
         "date": "20-11-2024",
@@ -922,7 +922,7 @@
       "id": 25,
       "name": "Reels Making",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "Online",
         "category": "Media",
         "venue": "Online",
         "date": "To be announced",
@@ -1004,7 +1004,7 @@
       "id": 27,
       "name": "Staff Quiz",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "4:30 pm - 6:00 pm",
         "category": "Quiz",
         "venue": "LHC Seminar Hall 2",
         "date": "21-11-2024",
@@ -1127,7 +1127,7 @@
       "id": 30,
       "name": "Photography",
       "details": {
-        "timing": "1:00 pm",
+        "timing": "Online",
         "category": "Art",
         "venue": "Online",
         "date": "To be announced",
