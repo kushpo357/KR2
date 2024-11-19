@@ -53,7 +53,7 @@ export default function EventPage() {
               <h2 className="text-2xl font-bold text-yellow-400 mb-4">
                 Details
               </h2>
-              <ul className="text-gray-300 space-y-2 flex flex-col md:flex-row md:flex-wrap md:space-y-0 md:space-x-4">
+              <ul className="text-gray-300 space-y-2 flex flex-col ">
                 <li className="flex-1 md:w-1/2">
                   <strong>Category:</strong> {event.details.category}
                 </li>
